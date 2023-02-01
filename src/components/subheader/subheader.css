@@ -1,0 +1,55 @@
+.subheader {
+  background: linear-gradient(
+    180.02deg,
+    rgba(170, 224, 255, 0.8) 0.02%,
+    rgba(251, 242, 197, 0.56) 64.03%,
+    rgba(244, 244, 244, 0) 98.7%
+  );
+  width: 100%;
+  height: 204px;
+}
+
+.iwanthelp {
+  margin: 12px 0 0 96px;
+  font-size: 20px;
+  color: white;
+}
+
+.donate-text {
+  width: 474px;
+  height: 176px;
+  background: white;
+  margin: 6px 0 0 96px;
+}
+
+.swish {
+  width: 145px;
+  margin: 20px 12px 24px 0;
+}
+
+@media (max-width: 576px) {
+  .donate-block {
+    margin: 0 auto;
+  }
+  .iwanthelp {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .donate-text {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .swish {
+    width: 95px;
+    height: 95px;
+    margin: 20px 5px;
+  }
+  .donate-text {
+    width: 344px;
+    height: 180px;
+  }
+  .subheader {
+    width: 100%;
+    height: 300px;
+  }
+}
