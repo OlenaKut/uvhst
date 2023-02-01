@@ -21,13 +21,13 @@ const Header = () => {
         <Button className="donate rounded-0 d-none d-md-inline">
           DONATE HERE
         </Button>
+        <h1 className="name">Ukrainian Volunteer Hub Stockholm</h1>
       </div>
       <div className="d-md-none d-block position-absolute alt-button">
         {" "}
         <AlternativeButtonOne />
         <AlternativeButtonTwo />
       </div>
-
       <div className="d-none d-sm-block">
         <MediaLinks />
       </div>

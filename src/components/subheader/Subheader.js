@@ -4,10 +4,10 @@ import swish from "../../pictures/swish.jpg";
 
 const Subheader = () => {
   return (
-    <div className="subheader">
-      <div className="donate-block postion-absolute">
+    <div className="subheader d-flex">
+      <div className="donate-block">
         <p className="iwanthelp">I want to help</p>
-        <div className="donate-text d-flex postion-absolute">
+        <div className="donate-text d-flex">
           <div>
             <h4 className="mx-3 my-1 text-primary fw-normal"> Donate here:</h4>
             <p className="mx-3 my-1 fw-semibold lh-sm">
@@ -35,6 +35,20 @@ const Subheader = () => {
           </div>
           <img src={swish} alt="Swish" className="swish" />
         </div>
+      </div>
+      <div className="about-info">
+        <p>
+          <span className="text-warning fs-4">
+            Ukrainian Volunteer Hub Stockholm
+          </span>{" "}
+          is a team of about 200 volunteers who have come together in February
+          2022 to help Ukraine. We help hospitals in Ukraine, orphanages, people
+          who suffered from war and soldiers at the front. During our work, we
+          collected approximately SEK 2 million and sent more than 100 trucks
+          with humanitarian aid to Ukraine. Now we are trying to collect more
+          things that will help in Ukraine. We are convinced that every donation
+          is important and can save someone's life.
+        </p>
       </div>
     </div>
   );

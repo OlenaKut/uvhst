@@ -55,6 +55,11 @@
   font-size: 24px;
 }
 
+.name {
+  margin: 0 0 0 96px;
+  color: #f8b435;
+}
+
 @media (max-width: 1392px) {
   .donate {
     margin-top: 58px;
@@ -79,6 +84,10 @@
   .media {
     width: 15px;
   }
+  .name {
+    margin: 0 0 12px 28px;
+    font-size: 28px;
+  }
 }
 @media (max-width: 400px) {
   .logo {
@@ -91,5 +100,9 @@
   }
   .media {
     width: 10px;
+  }
+  .name {
+    margin: 12px 0 12px 20px;
+    font-size: 18px;
   }
 }

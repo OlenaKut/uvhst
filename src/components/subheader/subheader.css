@@ -26,6 +26,12 @@
   width: 145px;
   margin: 20px 12px 24px 0;
 }
+.about-info {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(54, 52, 56);
+  margin: 36px;
+}
 
 @media (max-width: 576px) {
   .donate-block {
