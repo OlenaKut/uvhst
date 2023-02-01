@@ -7,7 +7,6 @@ const AlternativeButtonOne = () => {
   return (
     <div>
       <Button
-        className="volunteerButton rounded-0"
         variant="link"
         href="https://twitter.com/uvhub_sthlm"
         target="_blank"
@@ -15,9 +14,9 @@ const AlternativeButtonOne = () => {
         onMouseEnter={() => setIsShownOne(true)}
         onMouseLeave={() => setIsShownOne(false)}
       >
-        Hov!
+        <i className="fa-solid fa-handshake volunteerButton"></i>
       </Button>
-      {isShownOne && <div>Become a volunteer</div>}
+      {isShownOne && <p className="alt-button-text">Become a volunteer</p>}
     </div>
   );
 };
@@ -26,7 +25,6 @@ const AlternativeButtonTwo = () => {
   return (
     <div>
       <Button
-        className="donateButton rounded-0"
         variant="link"
         href="https://twitter.com/uvhub_sthlm"
         target="_blank"
@@ -34,9 +32,9 @@ const AlternativeButtonTwo = () => {
         onMouseEnter={() => setIsShownTwo(true)}
         onMouseLeave={() => setIsShownTwo(false)}
       >
-        Hov!
+        <i className="fa-solid fa-hand-holding-heart donateButton"></i>
       </Button>
-      {isShownTwo && <div>Donate here</div>}
+      {isShownTwo && <p className="alt-button-text">Donate here</p>}
     </div>
   );
 };

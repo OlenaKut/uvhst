@@ -1,6 +1,6 @@
 .logo {
-  width: 60px;
-  height: 84px;
+  width: 70px;
+  height: 94px;
   margin: 12px 40px 20px 96px;
 }
 
@@ -37,15 +37,22 @@
 .alt-button {
   margin: 0 0 0 94px;
 }
-
-.donateButton {
-  color: #1678e0;
-  font-size: 32px;
+.alt-button-text {
+  font-size: 10px;
+  color: white;
+  margin: 0;
+  padding: 0 4px;
+  background-color: rgb(166, 195, 242);
+  border-radius: 2px;
 }
 .volunteerButton {
-  font-size: 32px;
+  font-size: 24px;
   color: #f8b435;
   margin-top: 14px;
+}
+.donateButton {
+  color: #1678e0;
+  font-size: 24px;
 }
 
 @media (max-width: 1392px) {
@@ -64,7 +71,7 @@
   .logo {
     width: 50px;
     height: 74px;
-    margin: 18px;
+    margin: 20px;
   }
   .media-links {
     margin: 50px 36px 36px 0px;
