@@ -4,6 +4,10 @@ import "../header/HeaderMenu.css";
 import Button from "react-bootstrap/Button";
 import Menu from "../header/Menu";
 import MediaLinks from "../header/MediaLinks";
+import {
+  AlternativeButtonOne,
+  AlternativeButtonTwo,
+} from "../header/AlternativeButton";
 
 const Header = () => {
   return (
@@ -18,8 +22,13 @@ const Header = () => {
           DONATE HERE
         </Button>
       </div>
-      <div className="d-none d-sm-block">
+      <div className="d-md-none d-block position-absolute alt-button">
         {" "}
+        <AlternativeButtonOne />
+        <AlternativeButtonTwo />
+      </div>
+
+      <div className="d-none d-sm-block">
         <MediaLinks />
       </div>
       <div className="position-absolute end-0">

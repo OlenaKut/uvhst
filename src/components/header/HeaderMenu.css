@@ -34,17 +34,18 @@
 .media-links {
   margin: 104px 36px 36px 0px;
 }
+.alt-button {
+  margin: 0 0 0 94px;
+}
 
 .donateButton {
   color: #1678e0;
   font-size: 32px;
- 
 }
 .volunteerButton {
   font-size: 32px;
   color: #f8b435;
   margin-top: 14px;
-
 }
 
 @media (max-width: 1392px) {
