@@ -61,20 +61,11 @@
 }
 
 @media (max-width: 796px) {
-  .donate-text {
-    margin: 6px 0 0 10px;
-  }
-  .donate-block {
-    margin: 0 auto;
-  }
   .iwanthelp {
     margin: 0 auto;
     text-align: center;
   }
-  .donate-text {
-    margin: 0 auto;
-    font-size: 12px;
-  }
+
   .swish {
     width: 95px;
     height: 95px;
@@ -83,10 +74,12 @@
   .donate-text {
     width: 344px;
     height: 180px;
+    font-size: 12px;
+    margin: 0 auto;
   }
-   .about-info {
+  .about-info {
     font-size: 14px;
-    margin: 18px 12px;
+    margin: 20px auto;
   }
 }
 @media (max-width: 576px) {

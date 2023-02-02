@@ -4,7 +4,7 @@ import swish from "../../pictures/swish.jpg";
 
 const Subheader = () => {
   return (
-    <div className="subheader container-fluid d-flex justify-content-between">
+    <div className="subheader container-fluid d-flex flex-column flex-md-row">
       <div className="donate-block">
         <p className="iwanthelp">I want to help</p>
         <div className="donate-text d-flex">
