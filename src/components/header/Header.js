@@ -15,15 +15,15 @@ const Header = () => {
       <div>
         {" "}
         <img src={Logo} alt="Logo" className="logo" />
-        <Button className="donate rounded-0 d-none d-md-inline">
+        <Button className="donate rounded-0 d-none d-lg-inline">
           BECOME A VOLONTEER
         </Button>
-        <Button className="donate rounded-0 d-none d-md-inline">
+        <Button className="donate rounded-0 d-none d-lg-inline">
           DONATE HERE
         </Button>
         <h1 className="name">Ukrainian Volunteer Hub Stockholm</h1>
       </div>
-      <div className="d-md-none d-block position-absolute alt-button">
+      <div className="d-lg-none d-block position-absolute alt-button">
         {" "}
         <AlternativeButtonOne />
         <AlternativeButtonTwo />

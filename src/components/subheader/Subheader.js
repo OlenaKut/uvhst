@@ -4,7 +4,7 @@ import swish from "../../pictures/swish.jpg";
 
 const Subheader = () => {
   return (
-    <div className="subheader d-flex">
+    <div className="subheader container-fluid d-flex justify-content-between">
       <div className="donate-block">
         <p className="iwanthelp">I want to help</p>
         <div className="donate-text d-flex">
@@ -37,8 +37,8 @@ const Subheader = () => {
         </div>
       </div>
       <div className="about-info">
-        <p>
-          <span className="text-warning fs-4">
+        <p className="">
+          <span className="text-warning info-name">
             Ukrainian Volunteer Hub Stockholm
           </span>{" "}
           is a team of about 200 volunteers who have come together in February
