@@ -7,7 +7,7 @@
   );
   transform: rotate(-180deg);
   color: rgb(36, 36, 56);
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 .carousel {
@@ -17,8 +17,34 @@
 .carousel-text {
   color: rgb(107, 103, 103);
 }
-
-@media (max-width: 996px) {
-
+.img-instead {
+  transform: rotate(-180deg);
+}
+.image-list {
+  width: 33.33333%;
+}
+.undertext {
+  color: rgb(112, 112, 114);
+  font-size: 14px;
 }
 
+@media (max-width: 996px) {
+  .img-instead {
+    margin-top: -140px;
+  }
+}
+@media (max-width: 776px) {
+  .img-instead {
+    margin-top: -120px;
+  }
+}
+@media (max-width: 650px) {
+  .img-instead {
+    margin-top: -100px;
+  }
+}
+@media (max-width: 446px) {
+  .img-instead {
+    margin-top: -10px;
+  }
+}

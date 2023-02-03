@@ -4,11 +4,11 @@ import swish from "../../pictures/swish.jpg";
 
 const Subheader = () => {
   return (
-    <div className="subheader container-fluid d-flex flex-column flex-md-row">
-      <div className="donate-block">
+    <div className="subheader container-fluid d-flex">
+      <div className="donate-block d-lg-block d-none">
         <p className="iwanthelp">I want to help</p>
         <div className="donate-text d-flex">
-          <div>
+          <div className="">
             <h4 className="mx-3 my-1 text-primary fw-normal"> Donate here:</h4>
             <p className="mx-3 my-1 fw-semibold lh-sm">
               Recipient: Ukrainian Institute of Sweden
@@ -39,8 +39,8 @@ const Subheader = () => {
       <div className="about-info">
         <p className="">
           <span className="text-warning info-name">
-            Ukrainian Volunteer Hub Stockholm
-          </span>{" "}
+            Ukrainian Volunteer Hub Stockholm{" "}
+          </span>
           is a team of about 200 volunteers who have come together in February
           2022 to help Ukraine. We help hospitals in Ukraine, orphanages, people
           who suffered from war and soldiers at the front. During our work, we
