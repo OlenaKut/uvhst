@@ -5,10 +5,9 @@ import MainFP from "../components/main/MainFP";
 
 const FirstPage = () => {
   return (
-    <div className="FirstPage">
+    <div className="FirstPage d-block">
       <Header />
       <Subheader />
-      <br/>
       <MainFP />
     </div>
   );

@@ -2,7 +2,6 @@ import React from "react";
 import { Carousel } from "react-carousel3";
 import Clothes from "../../pictures/carousel/clothes.png";
 import Energy from "../../pictures/carousel/energy.png";
-import Shoes from "../../pictures/carousel/Shoes.jpg";
 import Food from "../../pictures/carousel/food.png";
 import Med from "../../pictures/carousel/med.png";
 
@@ -17,14 +16,13 @@ const MyCarousel = () => {
       style={{
         display: "flex",
         justifyContent: "center",
-        background: "linear-gradient(to bottom, #16235e 0%, #020223 80%)",
       }}
     >
       <Carousel
         height={560}
-        width={980}
+        width={1080}
         yOrigin={42}
-        yRadius={78}
+        yRadius={38}
         autoPlay={true}
       >
         <div key={1} style={style}>
@@ -32,9 +30,6 @@ const MyCarousel = () => {
         </div>
         <div key={2} style={style}>
           <img alt="Energy" src={Energy} className="w-100" />
-        </div>
-        <div key={3} style={style}>
-          <img alt="Shoes" src={Shoes} className="w-100" />
         </div>
         <div key={4} style={style}>
           <img alt="Food" src={Food} className="w-100" />

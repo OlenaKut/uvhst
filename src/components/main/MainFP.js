@@ -1,11 +1,11 @@
 import React from "react";
-import MyCarousel from "../main/MyCarousel";
 import "../main/mainFP.css";
+import OneCarousel from "../main/OneCarousel";
 
 const MainFP = () => {
   return (
-    <div>
-      <MyCarousel />
+    <div className="mainCarousel">
+      <OneCarousel />
     </div>
   );
 };
