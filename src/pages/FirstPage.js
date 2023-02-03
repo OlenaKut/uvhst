@@ -8,6 +8,7 @@ const FirstPage = () => {
     <div className="FirstPage">
       <Header />
       <Subheader />
+      <br/>
       <MainFP />
     </div>
   );
