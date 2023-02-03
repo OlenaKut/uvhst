@@ -9,14 +9,7 @@ const OneCarousel = () => {
   return (
     <div>
       <div className="carousel p-3 container-fluid d-lg-block d-none">
-        <Carousel
-          cols={3}
-          rows={1}
-          gap={0}
-          loop
-          mobileBreakpoint={767}
-          autoplay={4000}
-        >
+        <Carousel cols={3} rows={1} gap={0} loop autoplay={4000}>
           <Carousel.Item>
             <img
               className="m-auto d-flex justify-content-between img-carousel w-75"
@@ -63,11 +56,11 @@ const OneCarousel = () => {
           </Carousel.Item>
         </Carousel>
         <div className="m-auto text-center fst-italic undertext">
-          <h4>
+          <h5>
             We collect money and by things that are very necessary for people in
             Ukraine today.
-          </h4>
-          <h5>
+          </h5>
+          <h6>
             You can donate{" "}
             <a
               href="https://www.facebook.com/uavhub.stockholm"
@@ -76,16 +69,12 @@ const OneCarousel = () => {
             >
               here
             </a>
-          </h5>
+          </h6>
         </div>
       </div>
       <div className="img-instead d-flex justify-content-center d-lg-none">
         <div>
-          <img
-            className="m-auto d-flex-row image-list"
-            src={Food}
-            alt="Food"
-          />
+          <img className="m-auto d-flex-row image-list" src={Food} alt="Food" />
           <img
             className="m-auto d-flex-row image-list"
             src={Med}
