@@ -64,6 +64,12 @@ const OneCarousel = () => {
           </div>
         </Carousel.Item>
       </Carousel>
+
+      <p>
+        We collect money and by things that are very necessary for people in
+        Ukraine today.
+      </p>
+      <p>You can donate here</p>
     </div>
   );
 };
