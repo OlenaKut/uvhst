@@ -1,13 +1,3 @@
-//import Tournikets from "../../pictures/News/Tournikets";
-//import Volunteers from "../../pictures/News/Volunteers";
-//import Donation from "../../pictures/News/Donation";
-//import Solar from "../../pictures/News/Solar";
-//import Member from "../../pictures/News/Member";
-//import Truck from "../../pictures/News/Truck";
-//import Ecoflow from "../../pictures/News/Ecoflow";
-//import TruckTwo from "../../pictures/News/TruckTwo";
-//import Shoes from "../../pictures/News/Shoes";
-//import Kids from "../../pictures/News/Kids";
 
 const news = [
   {
