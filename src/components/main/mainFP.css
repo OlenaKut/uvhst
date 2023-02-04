@@ -28,6 +28,14 @@
   font-size: 14px;
 }
 
+.news-image {
+  width: 100%;
+}
+.news-title {
+ font-size: 36px;
+}
+
+
 @media (max-width: 996px) {
   .img-instead {
     margin-top: -140px;

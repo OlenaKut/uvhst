@@ -5,8 +5,10 @@ import MainBlock from "../main/MainBlock";
 
 const MainFP = () => {
   return (
-    <div className="mainCarousel">
-      <OneCarousel />
+    <div>
+      <div className="mainCarousel">
+        <OneCarousel />
+      </div>
       <MainBlock />
     </div>
   );
