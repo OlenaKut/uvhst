@@ -20,9 +20,6 @@
 .img-instead {
   transform: rotate(-180deg);
 }
-.image-list {
-  width: 33.33333%;
-}
 .undertext {
   color: rgb(112, 112, 114);
   font-size: 14px;
@@ -50,11 +47,11 @@
   font-size: 16px;
   background: rgb(255, 255, 255);
   text-decoration: none;
- }
- .view-button:hover {
-    background: rgb(172, 249, 255);
-      transition: all ease-in-out 0.3s;
- }
+}
+.view-button:hover {
+  background: rgb(172, 249, 255);
+  transition: all ease-in-out 0.3s;
+}
 @media (max-width: 996px) {
   .img-instead {
     margin-top: -140px;

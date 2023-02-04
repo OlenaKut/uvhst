@@ -4,6 +4,9 @@ import Clothes from "../../pictures/carousel/clothes.png";
 import Energy from "../../pictures/carousel/energy.png";
 import Food from "../../pictures/carousel/food.png";
 import Med from "../../pictures/carousel/med.png";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const OneCarousel = () => {
   return (
@@ -72,36 +75,48 @@ const OneCarousel = () => {
           </h6>
         </div>
       </div>
-      <div className="img-instead d-flex justify-content-center d-lg-none">
-        <div>
-          <img className="m-auto d-flex-row image-list" src={Food} alt="Food" />
-          <img
-            className="m-auto d-flex-row image-list"
-            src={Med}
-            alt="Medicine"
-          />
-          <img
-            className="m-auto d-flex-row image-list"
-            src={Clothes}
-            alt="Clothes"
-          />
-
-          <div className="m-auto text-center fst-italic undertext mt-2">
-            <p>
-              We collect money and by things that are very necessary for people
-              in Ukraine today. <br />
-              You can donate{" "}
-              <a
-                href="https://www.facebook.com/uavhub.stockholm"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>
-            </p>
-          </div>
+      <Container
+        fluid
+        className="img-instead mx-auto text-center d-block d-lg-none"
+      >
+        <Row>
+          <Col sm={4}>
+            <img className="img-fluid m-1 image-list" src={Food} alt="Food" />
+          </Col>
+          <Col sm={4}>
+            {" "}
+            <img
+              className="img-fluid m-1 image-list"
+              src={Med}
+              alt="Medicine"
+            />
+          </Col>
+          <Col sm={4}>
+            {" "}
+            <img
+              className="img-fluid m-1 image-list"
+              src={Clothes}
+              alt="Clothes"
+            />
+          </Col>
+        </Row>
+        <div className="mx-auto p-2 text-center fst-italic undertext">
+          <h5>
+            We collect money and by things that are very necessary for people in
+            Ukraine today.
+          </h5>
+          <h6>
+            You can donate{" "}
+            <a
+              href="https://www.facebook.com/uavhub.stockholm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+          </h6>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };
