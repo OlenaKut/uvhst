@@ -18,7 +18,7 @@ const MainBlock = () => {
               <div className="m-4 p-3">
                 <h4 className="news-title m-3">{newa.name}</h4>
                 <p className="news-text">{newa.text}</p>
-                <p>{newa.account}</p>
+                <p className="fst-italic">{newa.account}</p>
               </div>
             </div>
           </div>

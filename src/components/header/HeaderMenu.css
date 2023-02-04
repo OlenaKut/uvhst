@@ -72,8 +72,8 @@
     margin: 80px 36px 36px 0px;
   }
   .name {
-  font-size: 44px;
-}
+    font-size: 44px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -106,16 +106,15 @@
     font-size: 20px;
   }
   .alt-button {
-  margin: 10px 0 0 84px;
-}
-.volunteerButton {
-  font-size: 20px;
+    margin: 10px 0 0 84px;
   }
-  
-.donateButton {
-font-size: 20px;
-}
+  .volunteerButton {
+    font-size: 20px;
+  }
 
+  .donateButton {
+    font-size: 20px;
+  }
 }
 @media (max-width: 400px) {
   .logo {
@@ -134,13 +133,13 @@ font-size: 20px;
     font-size: 18px;
     text-align: center;
   }
-    .alt-button {
-  margin: 0 0 0 64px;
-}
-.volunteerButton {
-  font-size: 20px;
+  .alt-button {
+    margin: 0 0 0 64px;
+  }
+  .volunteerButton {
+    font-size: 20px;
   }
   .donateButton {
-font-size: 20px;
-}
+    font-size: 20px;
+  }
 }
