@@ -6,7 +6,7 @@ import Mail from "../../pictures/Mail_icon_black.png";
 
 const Contacts = () => {
   return (
-    <div className="contacts">
+    <div className="mt-5">
       <div className="d-flex contact-block">
         <img src={Address} alt="Address" className="contact-logo m-1 " />
         <Button
@@ -16,7 +16,9 @@ const Contacts = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sveavägen 162, 113 46 Stockholm, Sunday 14:00-18:00
+          Sveavägen 162, 113 46 Stockholm
+          <br />
+          <span className="fst-italic">Sunday 14:00-18:00</span>
         </Button>
       </div>
       <div className="d-flex contact-block">

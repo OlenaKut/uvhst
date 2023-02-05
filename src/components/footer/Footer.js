@@ -10,14 +10,19 @@ import "../footer/Footer.css";
 const Footer = () => {
   return (
     <div>
-      <Container fluid className="footer text-center">
+      <Container
+        fluid
+        className="footer text-center"
+      >
         <Row>
           <Col xs md="4">
             <Contacts />
           </Col>
           <Col xs md="4">
-            {" "}
-            <MediaLinks />
+            <div>
+              {" "}
+              <MediaLinks />
+            </div>
           </Col>
           <Col xs md="4">
             <Contacts />

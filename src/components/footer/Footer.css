@@ -8,8 +8,7 @@
     rgba(98, 233, 253, 0.448) 98.7%
   );
   color: rgb(36, 36, 56);
-  padding-top: 56px;
-  padding: 40px 60px;
+  padding: 60px;
 }
 
 .contact-logo {
@@ -19,12 +18,15 @@
 .contact-text {
   color: rgb(36, 36, 56);
   font-weight: 600;
+  text-align: left;
 }
-.media-links {
-  margin: 30px auto;
-}
-.media {
-  margin: 10px;
-}
-@media (max-width: 776px) {
+
+@media (max-width: 996px) {
+  .contact-logo {
+    height: 20px;
+  }
+
+  .contact-text {
+    font-size: 12px;
+  }
 }
