@@ -1,12 +1,11 @@
 import React from "react";
 import Contacts from "./Contacts";
-import Partners from "./Partners";
+
 import "../footer/Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <Partners />
+    <div className="footer p-4">
       <Contacts />
     </div>
   );

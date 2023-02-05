@@ -1,0 +1,42 @@
+.partners-block {
+    width: 40%;
+}
+.partners-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.partner-link {
+  width: 100px;
+}
+.small-logo {
+  width: 170px;
+}
+
+@media (max-width: 1100px) {
+  .partners-title {
+    font-size: 28px;
+  }
+  .partner-link {
+    width: 70px;
+  }
+  .small-logo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+    .partners-block {
+    width: 50%;
+}
+  .partners-title {
+    font-size: 20px;
+  }
+  .partner-link {
+    width: 50px;
+  }
+  .small-logo {
+    width: 80px;
+  }
+}

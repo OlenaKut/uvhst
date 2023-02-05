@@ -11,17 +11,17 @@ import Plast from "../../pictures/Plast.png";
 import Church from "../../pictures/Church.png";
 import Pop from "../../pictures/Pop_logo.png";
 import Palianytsia from "../../pictures/Palianytsia-logo.jfif";
+import "../main/Partners.css";
 
 const Partners = () => {
   return (
-    <div className="m-auto text-center w-50">
+    <div className="m-auto text-center partners-block">
       <h1 className="partners-title m-2 m-sm-5">Our Partners</h1>
       <Container fluid>
         <Row className="my-3 my-xs-5" xs="auto">
           <Col>
             <Button
               variant="link"
-              className=""
               href="https://twitter.com/uvhub_sthlm"
               target="_blank"
               rel="noopener noreferrer"
@@ -37,7 +37,6 @@ const Partners = () => {
           <Col>
             <Button
               variant="link"
-              className=""
               href="https://twitter.com/uvhub_sthlm"
               target="_blank"
               rel="noopener noreferrer"
@@ -49,7 +48,6 @@ const Partners = () => {
           <Col>
             <Button
               variant="link"
-              className=""
               href="https://twitter.com/uvhub_sthlm"
               target="_blank"
               rel="noopener noreferrer"
@@ -63,7 +61,6 @@ const Partners = () => {
           <Col>
             <Button
               variant="link"
-              className=""
               href="https://twitter.com/uvhub_sthlm"
               target="_blank"
               rel="noopener noreferrer"
@@ -79,7 +76,6 @@ const Partners = () => {
           <Col>
             <Button
               variant="link"
-              className=""
               href="https://twitter.com/uvhub_sthlm"
               target="_blank"
               rel="noopener noreferrer"
@@ -91,7 +87,6 @@ const Partners = () => {
           <Col>
             <Button
               variant="link"
-              className=""
               href="https://twitter.com/uvhub_sthlm"
               target="_blank"
               rel="noopener noreferrer"
@@ -103,7 +98,6 @@ const Partners = () => {
           <Col>
             <Button
               variant="link"
-              className=""
               href="https://twitter.com/uvhub_sthlm"
               target="_blank"
               rel="noopener noreferrer"
