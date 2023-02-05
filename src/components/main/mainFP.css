@@ -24,7 +24,9 @@
   color: rgb(112, 112, 114);
   font-size: 14px;
 }
-
+.news-block {
+  width: 80%;
+}
 .news-image {
   width: 100%;
 }
@@ -41,7 +43,7 @@
   background: rgba(121, 121, 121, 1);
   padding: 24px 48px;
   height: 300px;
- }
+}
 
 .view-button {
   font-weight: 700;
@@ -62,6 +64,9 @@
   }
 }
 @media (max-width: 1280px) {
+  .news-block {
+    width: 100%;
+  }
   .project-title {
     font-size: 24px;
   }
@@ -120,6 +125,9 @@
 @media (max-width: 776px) {
   .img-instead {
     margin-top: -120px;
+  }
+  .news-title {
+    text-align: center;
   }
 }
 @media (max-width: 650px) {
