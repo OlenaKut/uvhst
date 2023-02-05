@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 const Projects = () => {
   return (
     <Container fluid className="projects text-white my-5">
-      <Row className="">
+      <Row>
         <Col xs md="6" lg="3" className="p-0 my-1">
           {" "}
           <div className="blue-box">

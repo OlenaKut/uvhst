@@ -1,12 +1,29 @@
 import React from "react";
 import Contacts from "./Contacts";
+import MediaLinks from "../header/MediaLinks";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import "../footer/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer p-4">
-      <Contacts />
+    <div>
+      <Container fluid className="footer text-center">
+        <Row>
+          <Col xs md="4">
+            <Contacts />
+          </Col>
+          <Col xs md="4">
+            {" "}
+            <MediaLinks />
+          </Col>
+          <Col xs md="4">
+            <Contacts />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

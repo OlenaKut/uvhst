@@ -1,32 +1,30 @@
 .footer {
   background: linear-gradient(
     180.02deg,
-    rgba(158, 240, 253, 0.8) 0.02%,
-    rgba(255, 243, 183, 0.336) 57.15%,
-    rgba(217, 217, 217, 0) 98.7%
+    rgba(255, 255, 255, 0) 0.02%,
+    rgba(254, 243, 185, 0.08) 21.09%,
+    rgba(250, 240, 188, 0.376) 49.36%,
+    rgba(175, 236, 250, 0.424) 74.03%,
+    rgba(98, 233, 253, 0.448) 98.7%
   );
-  transform: rotate(-180deg);
   color: rgb(36, 36, 56);
-  height: 180px;
+  padding-top: 56px;
+  padding: 40px 60px;
 }
 
-.contacts {
-  transform: rotate(-180deg);
-}
 .contact-logo {
-  width: 24px;
-}
-.contact-logo-tel {
-  width: 20px;
+  height: 24px;
 }
 
-.contact-block {
-  margin-left: 92px;
-}
 .contact-text {
   color: rgb(36, 36, 56);
   font-weight: 600;
 }
-
+.media-links {
+  margin: 30px auto;
+}
+.media {
+  margin: 10px;
+}
 @media (max-width: 776px) {
 }

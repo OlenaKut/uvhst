@@ -6,9 +6,9 @@ import Mail from "../../pictures/Mail_icon_black.png";
 
 const Contacts = () => {
   return (
-    <div className="contacts ms-5">
+    <div className="contacts">
       <div className="d-flex contact-block">
-        <img src={Address} alt="Address" className="contact-logo m-2" />
+        <img src={Address} alt="Address" className="contact-logo m-1 " />
         <Button
           variant="link"
           className=" text-decoration-none contact-text"
@@ -20,7 +20,7 @@ const Contacts = () => {
         </Button>
       </div>
       <div className="d-flex contact-block">
-        <img src={Phone} alt="Phone" className="contact-logo-tel m-2" />
+        <img src={Phone} alt="Phone" className="contact-logo m-1" />
         <Button
           variant="link"
           className="text-decoration-none contact-text"
@@ -32,7 +32,7 @@ const Contacts = () => {
         </Button>
       </div>
       <div className="d-flex contact-block">
-        <img src={Mail} alt="Mail" className="contact-logo m-2" />
+        <img src={Mail} alt="Mail" className="contact-logo m-1" />
         <Button
           variant="link"
           className="contact-text"
