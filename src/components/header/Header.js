@@ -11,7 +11,7 @@ import {
 
 const Header = () => {
   return (
-    <div className="header container-fluid d-flex justify-content-between">
+    <div className="header container-fluid d-flex justify-content-between sticky-top">
       <div>
         {" "}
         <img src={Logo} alt="Logo" className="logo" />
@@ -21,7 +21,7 @@ const Header = () => {
         <Button className="donate rounded-0 d-none d-lg-inline">
           DONATE HERE
         </Button>
-        <h1 className="name">Ukrainian Volunteer Hub Stockholm</h1>
+        <h1 className="name mb-3">Ukrainian Volunteer Hub Stockholm</h1>
       </div>
       <div className="d-lg-none d-block position-absolute alt-button">
         {" "}
