@@ -11,7 +11,7 @@ import {
 
 const Header = () => {
   return (
-    <div className="header container-fluid d-flex justify-content-between sticky-top">
+    <div className="header container-fluid d-flex justify-content-between sticky-top mb-2 shadow-lg rounded-1">
       <div>
         {" "}
         <img src={Logo} alt="Logo" className="logo" />
