@@ -11,7 +11,7 @@ import "../footer/Footer.css";
 const Footer = () => {
   return (
     <div>
-      <Container fluid className="footer text-center p-2">
+      <Container fluid className="footer text-center px-5 pb-5">
         <Row>
           <Col md lg="4">
             <Contacts />
