@@ -74,11 +74,9 @@
     font-size: 14px;
   }
   .blue-box {
-    padding: 14px 28px;
     height: 270px;
   }
   .grey-box {
-    padding: 14px 28px;
     height: 270px;
   }
 }
@@ -109,29 +107,32 @@
     font-size: 24px;
   }
   .project-title {
-    font-size: 20px;
+    font-size: 24px;
   }
   .blue-box {
-    padding: 8px 16px;
     height: 220px;
   }
   .grey-box {
-    padding: 8px 16px;
     height: 220px;
   }
 }
-@media (max-width: 776px) {
+@media (max-width: 778px) {
   .img-instead {
     margin-top: -120px;
   }
   .news-title {
     text-align: center;
   }
-
 }
 @media (max-width: 650px) {
   .img-instead {
     margin-top: -100px;
+  }
+  .blue-box {
+    height: 180px;
+  }
+  .grey-box {
+    height: 180px;
   }
 }
 @media (max-width: 446px) {
