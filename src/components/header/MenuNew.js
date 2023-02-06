@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { LinkContainer } from "react-router-bootstrap";
 
 const MenuNew = () => {
   return (
@@ -20,18 +21,16 @@ const MenuNew = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link
-                  href="#home"
-                  className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
-                >
-                  Home
-                </Nav.Link>
-                <Nav.Link
-                  href="#ourWork"
-                  className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
-                >
-                  Our work
-                </Nav.Link>
+                <LinkContainer to="/">
+                  <Nav.Link className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1">
+                    Home
+                  </Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="/Page2News">
+                  <Nav.Link className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1">
+                    Our work
+                  </Nav.Link>
+                </LinkContainer>
                 <Nav.Link
                   href="#iCanHelp"
                   className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"

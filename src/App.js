@@ -1,17 +1,17 @@
-import ThemeProvider from "react-bootstrap/ThemeProvider";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Routes, Route } from "react-router-dom";
 import FirstPage from "./pages/FirstPage";
+import Page2News from "./pages/Page2News";
 
-function App() {
+const App = () => {
   return (
-    <ThemeProvider
-      breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
-      minBreakpoint="xxs"
-    >
-      <div className="App">
-        <FirstPage />
-      </div>
-    </ThemeProvider>
+    <div>
+      <Routes>
+        <Route path="/" element={<FirstPage />} />
+        <Route path="/Page2News" element={<Page2News />} />
+      </Routes>
+    </div>
   );
-}
+};
 
 export default App;
