@@ -29,6 +29,10 @@
 .menu {
   margin-bottom: 20px;
 }
+.offcanvas {
+  opacity: 99%;
+  height: 40%;
+}
 
 .media {
   width: 24px;
@@ -64,9 +68,12 @@
   font-size: 60px;
 }
 
-@media (max-width: 1392px) {
+@media (max-width: 1410px) {
   .donate {
     margin-top: 58px;
+  }
+  .donate-here {
+    width: 170px;
   }
   .media {
     width: 20px;
@@ -85,8 +92,9 @@
     height: 74px;
     margin: 20px;
   }
+
   .media-links {
-    margin: 50px 36px 36px 0px;
+    margin: 60px 48px 36px 0px;
   }
   .media {
     width: 15px;

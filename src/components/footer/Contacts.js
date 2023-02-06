@@ -18,7 +18,7 @@ const Contacts = () => {
         >
           Sveavägen 162, 113 46 Stockholm
           <br />
-          <span className="fw-lighter">(Sunday 14:00-18:00)</span>
+          <span className="fw-lighter p-4">(Sunday 14:00-18:00)</span>
         </Button>
       </div>
       <div className="contact-block">

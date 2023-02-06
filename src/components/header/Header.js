@@ -18,7 +18,7 @@ const Header = () => {
         <Button className="donate rounded-0 d-none d-lg-inline">
           BECOME A VOLONTEER
         </Button>
-        <Button className="donate rounded-0 d-none d-lg-inline">
+        <Button className="donate donate-here rounded-0 d-none d-lg-inline">
           DONATE HERE
         </Button>
         <h1 className="name mb-3">Ukrainian Volunteer Hub Stockholm</h1>
