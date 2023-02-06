@@ -43,7 +43,7 @@ const Subscribe = () => {
             </InputGroup>
           </Form.Group>
         </Row>
-        <Form.Group className="mb-3 container d-flex justify-content-between">
+        <Form.Group className="mb-0 container d-flex justify-content-between">
           <Form.Check
             className="d-flex justify-content-start"
             required
@@ -52,7 +52,7 @@ const Subscribe = () => {
             feedbackType="invalid"
           />
           <Button
-            className="subscribe-button border px-3 border-info"
+            className="subscribe-button border px-2 border-info"
             variant="light"
             type="submit"
           >

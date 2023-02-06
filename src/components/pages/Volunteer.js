@@ -26,7 +26,7 @@ const Volunteer = () => {
         issues of the political, economic and social situation in Ukraine, to
         help and support both Swedish and Ukrainian citizens.
       </p>
-      <h4 className="text-center mb-3">
+      <h4 className="text-center mb-3 vol-subheader">
         As a volunteer, you can help us with the following issues:
       </h4>
       <ul>
@@ -45,7 +45,7 @@ const Volunteer = () => {
           processing requests, maintaining pages in social networks, etc
         </li>
       </ul>
-      <p className="fw-semibold">
+      <p className="fw-semibold as-text">
         As a volunteer, you choose what you can help with, as well as how much
         time you can devote to it. We are grateful to everyone, the who works
         with us and wants to work. We will be happy to answer all questions and
@@ -55,6 +55,7 @@ const Volunteer = () => {
         To become a volunteer in , please fill out the form in our Telegram
         channel
         <Button
+          className="volunteer-link"
           variant="link"
           href="https://t.me/UkrainianVolunteerHubStockholm"
           target="_blank"
@@ -67,22 +68,23 @@ const Volunteer = () => {
       <p>
         If you have additional questions, please contact us at our postal
         address
-        <img src={Mail_icon} alt="Mail" className="contact-logo ms-2" />
         <Button
+          className="volunteer-link"
           variant="link"
           href="mailto:https://twitter.com/uvhub_sthlm"
           rel="noopener noreferrer"
         >
+          <img src={Mail_icon} alt="Mail" className="contact-logo mx-2" />
           uv.hub.stockholm@gmail.com
         </Button>
       </p>
-      <h3 className="text-center text-warning my-5">
+      <h3 className="text-center text-warning my-xs-5 mb-3 together-text">
         Only together we will win!
       </h3>
       <img
         src={Volunteers}
         alt="Our Volunteers"
-        className="rounded-2 m-1 img-fluid"
+        className="rounded-2 m-0 img-fluid"
       />
     </div>
   );

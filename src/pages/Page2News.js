@@ -29,7 +29,9 @@ const Page2News = () => {
           );
         })}
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

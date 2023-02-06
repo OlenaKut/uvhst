@@ -75,11 +75,11 @@
   }
   .blue-box {
     padding: 14px 28px;
-    height: 250px;
+    height: 270px;
   }
   .grey-box {
     padding: 14px 28px;
-    height: 250px;
+    height: 270px;
   }
 }
 
@@ -92,11 +92,9 @@
   }
   .blue-box {
     padding: 8px 16px;
-    height: 250px;
   }
   .grey-box {
     padding: 8px 16px;
-    height: 250px;
   }
 }
 

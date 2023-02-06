@@ -11,20 +11,15 @@ import "../footer/Footer.css";
 const Footer = () => {
   return (
     <div>
-      <Container fluid className="footer text-center p-lg-5 p-2">
+      <Container fluid className="footer text-center p-2">
         <Row>
-          <Col xs md="4">
-            <div>
-              <Contacts />
-            </div>
+          <Col md lg="4">
+            <Contacts />
           </Col>
-          <Col xs md="4">
-            <div>
-              {" "}
-              <MediaLinks />
-            </div>
+          <Col md lg="4">
+            <MediaLinks />
           </Col>
-          <Col xs md="4">
+          <Col md lg="4">
             <Subscribe />
           </Col>
         </Row>
