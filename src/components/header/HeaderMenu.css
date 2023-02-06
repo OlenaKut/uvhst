@@ -31,7 +31,7 @@
 }
 
 .media {
-  width: 25px;
+  width: 24px;
 }
 
 .media-links {
@@ -61,7 +61,7 @@
 .name {
   margin: 0 0 0 96px;
   color: #f8b435;
-  font-size: 64px;
+  font-size: 60px;
 }
 
 @media (max-width: 1392px) {

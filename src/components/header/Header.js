@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../pictures/Logo.png";
 import "../header/HeaderMenu.css";
 import Button from "react-bootstrap/Button";
-import Menu from "../header/Menu";
+import MenuNew from "../header/MenuNew";
 import MediaLinks from "../header/MediaLinks";
 import {
   AlternativeButtonOne,
@@ -32,7 +32,7 @@ const Header = () => {
         <MediaLinks />
       </div>
       <div className="position-absolute end-0">
-        <Menu />
+        <MenuNew />
       </div>
     </div>
   );
