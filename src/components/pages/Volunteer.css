@@ -1,0 +1,21 @@
+.volunteer {
+  margin: 60px auto;
+  width: 60%;
+  font-size: 18px;
+}
+.volunteer-header {
+  color: rgb(36, 36, 56);
+}
+.volunteer-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(118, 118, 128);
+}
+.UVHS {
+  font-size: 24px;
+}
+.telegram {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}

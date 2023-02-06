@@ -31,12 +31,14 @@ const MenuNew = () => {
                     Our work
                   </Nav.Link>
                 </LinkContainer>
-                <Nav.Link
-                  href="#iCanHelp"
-                  className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
-                >
-                  I can help
-                </Nav.Link>
+                <LinkContainer to="/Page3Volunteer">
+                  <Nav.Link
+                    href="#iCanHelp"
+                    className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
+                  >
+                    I can help
+                  </Nav.Link>
+                </LinkContainer>
                 <Nav.Link
                   href="#iNeedHelp"
                   className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
