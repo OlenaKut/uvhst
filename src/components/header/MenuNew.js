@@ -22,32 +22,29 @@ const MenuNew = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <LinkContainer to="/">
-                  <Nav.Link className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1">
+                  <Nav.Link className="link text-warning me-sm-1 me-md-4 mt-4  px-0 pb-1">
                     Home
                   </Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/Page2News">
-                  <Nav.Link className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1">
+                  <Nav.Link className="link text-warning me-sm-1 me-md-4 mt-4  px-0 pb-1">
                     Our work
                   </Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/Page3Volunteer">
-                  <Nav.Link
-                    href="#iCanHelp"
-                    className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
-                  >
+                  <Nav.Link className="link text-warning me-sm-1 me-md-4 mt-4 px-0 pb-1">
                     I can help
                   </Nav.Link>
                 </LinkContainer>
                 <Nav.Link
                   href="#iNeedHelp"
-                  className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
+                  className="link text-warning me-sm-1 me-md-3 mt-4  px-0 pb-1"
                 >
                   I need help
                 </Nav.Link>
                 <Nav.Link
                   href="#ourTeam"
-                  className="link text-warning me-sm-3 me-md-5 mt-lg-4 m-0 fs-6 fs-4 px-0 pb-1"
+                  className="link text-warning me-sm-1 me-md-3 mt-4  px-0 pb-1"
                 >
                   Our team
                 </Nav.Link>

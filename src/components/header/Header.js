@@ -8,19 +8,34 @@ import {
   AlternativeButtonOne,
   AlternativeButtonTwo,
 } from "../header/AlternativeButton";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Header = () => {
   return (
     <div className="header container-fluid d-flex justify-content-between sticky-top mb-2 shadow-lg rounded-1">
-      <div>
+      <div className="mt-lg-5 mt-3">
         {" "}
         <img src={Logo} alt="Logo" className="logo" />
-        <Button className="donate rounded-0 d-none d-lg-inline">
-          BECOME A VOLONTEER
-        </Button>
-        <Button className="donate donate-here rounded-0 d-none d-lg-inline">
-          DONATE HERE
-        </Button>
+        <LinkContainer to="/Page3Volunteer">
+          <Button
+            variant="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="donate rounded-0 d-none d-lg-inline text-decoration-none"
+          >
+            BECOME A VOLONTEER
+          </Button>
+        </LinkContainer>
+        <LinkContainer to="/Page3Volunteer">
+          <Button
+            variant="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="donate rounded-0 d-none d-lg-inline text-decoration-none"
+          >
+            DONATE HERE
+          </Button>
+        </LinkContainer>
         <h1 className="name mb-3">Ukrainian Volunteer Hub Stockholm</h1>
       </div>
       <div className="d-lg-none d-block position-absolute alt-button">

@@ -9,9 +9,7 @@ const Page3Volunteer = () => {
     <div>
       <Header />
       <Volunteer />
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };
