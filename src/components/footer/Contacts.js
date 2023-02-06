@@ -6,7 +6,7 @@ import Mail from "../../pictures/Mail_icon_black.png";
 
 const Contacts = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 text-center container">
       <div className="d-flex contact-block">
         <img src={Address} alt="Address" className="contact-logo m-1 " />
         <Button

@@ -101,9 +101,6 @@
   .media-links {
     margin: 40px 20px 20px 0px;
   }
-  .media {
-    width: 12px;
-  }
   .name {
     display: none;
   }
@@ -119,16 +116,16 @@
   }
 }
 @media (max-width: 400px) {
+  .header {
+    padding-bottom: 10px;
+  }
   .logo {
     width: 40px;
     height: 54px;
     margin: 12px;
   }
   .media-links {
-    margin: 60px 210px 0 0;
-  }
-  .media {
-    width: 10px;
+    margin: 10px 0;
   }
   .alt-button {
     margin: 0 0 0 64px;
