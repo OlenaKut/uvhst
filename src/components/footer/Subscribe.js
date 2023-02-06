@@ -19,7 +19,7 @@ const Subscribe = () => {
   };
 
   return (
-    <div>
+    <div className="m-auto">
       <h6>SUBSCRIBE</h6>
       <p className="text-start subscribe-text">
         Join our weekly email newsletter to receive news, events and other
@@ -43,8 +43,9 @@ const Subscribe = () => {
             </InputGroup>
           </Form.Group>
         </Row>
-        <Form.Group className="mb-3 container d-lg-flex d-block justify-content-between">
+        <Form.Group className="mb-3 container d-flex justify-content-between">
           <Form.Check
+            className="d-flex justify-content-start"
             required
             label="Agree to terms and conditions"
             feedback="You must agree before submitting."

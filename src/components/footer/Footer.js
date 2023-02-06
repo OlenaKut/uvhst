@@ -11,10 +11,12 @@ import "../footer/Footer.css";
 const Footer = () => {
   return (
     <div>
-      <Container fluid className="footer text-center">
+      <Container fluid className="footer text-center p-lg-5 p-2">
         <Row>
           <Col xs md="4">
-            <Contacts />
+            <div>
+              <Contacts />
+            </div>
           </Col>
           <Col xs md="4">
             <div>
