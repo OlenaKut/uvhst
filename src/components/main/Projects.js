@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Container fluid className="projects text-white my-5">
       <Row>
-        <Col xs md="6" lg="3" className="p-0 my-1">
+        <Col xs sm md="6" lg="3" className="p-0 my-1">
           {" "}
           <div className="blue-box">
             <h3 className="project-title">Assistance to children in Ukraine</h3>
@@ -24,7 +24,7 @@ const Projects = () => {
             </Button>
           </div>
         </Col>
-        <Col xs md="6" lg="3" className="p-0 my-1">
+        <Col xs sm md="6" lg="3" className="p-0 my-1">
           <div className="grey-box">
             {" "}
             <h3 className="project-title">
@@ -42,7 +42,7 @@ const Projects = () => {
             </Button>
           </div>
         </Col>
-        <Col xs md="6" lg="3" className="p-0 my-1">
+        <Col xs sm md="6" lg="3" className="p-0 my-1">
           <div className="blue-box">
             {" "}
             <h3 className="project-title">Assistance to refugees in Sweden</h3>
@@ -58,7 +58,7 @@ const Projects = () => {
             </Button>
           </div>
         </Col>
-        <Col xs md="6" lg="3" className="p-0 my-1">
+        <Col xs sm md="6" lg="3" className="p-0 my-1">
           <div className="grey-box">
             {" "}
             <h3 className="project-title">Military assistance</h3>

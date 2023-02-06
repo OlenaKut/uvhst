@@ -15,10 +15,10 @@ import "../main/Partners.css";
 
 const Partners = () => {
   return (
-    <div className="m-auto text-center partners-block">
-      <h1 className="partners-title m-2 m-sm-5">Our Partners</h1>
-      <Container fluid>
-        <Row className="my-3 my-xs-5" xs="auto">
+    <div className="m-auto text-center partners-block container">
+      <h1 className="partners-title">Our Partners</h1>
+      <Container fluid className="m-auto text-center">
+        <Row className="d-inline-flex justify-content-center m-2" xs="auto">
           <Col>
             <Button
               variant="link"
@@ -57,7 +57,7 @@ const Partners = () => {
             </Button>
           </Col>
         </Row>
-        <Row className="my-3 my-xs-5" xs="auto">
+        <Row className="d-inline-flex justify-content-center m-2" xs="auto">
           <Col>
             <Button
               variant="link"

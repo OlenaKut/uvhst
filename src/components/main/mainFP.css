@@ -113,11 +113,11 @@
   }
   .blue-box {
     padding: 8px 16px;
-    height: 170px;
+    height: 220px;
   }
   .grey-box {
     padding: 8px 16px;
-    height: 170px;
+    height: 220px;
   }
 }
 @media (max-width: 776px) {
@@ -127,6 +127,7 @@
   .news-title {
     text-align: center;
   }
+
 }
 @media (max-width: 650px) {
   .img-instead {

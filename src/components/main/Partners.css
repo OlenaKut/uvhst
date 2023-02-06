@@ -1,5 +1,5 @@
 .partners-block {
-    width: 40%;
+  width: 70%;
 }
 .partners-title {
   font-size: 32px;
@@ -27,9 +27,9 @@
 }
 
 @media (max-width: 768px) {
-    .partners-block {
-    width: 50%;
-}
+  .partners-block {
+    width: 80%;
+  }
   .partners-title {
     font-size: 20px;
   }
