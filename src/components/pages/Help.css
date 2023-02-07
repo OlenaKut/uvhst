@@ -1,0 +1,15 @@
+.ICanHelp {
+  margin: 40px auto;
+}
+
+.vol-title {
+  color: rgb(118, 118, 128);
+}
+
+.vol-text {
+  font-size: 18px;
+}
+.vol-block {
+  padding: 20px 0;
+  width: 50%;
+}

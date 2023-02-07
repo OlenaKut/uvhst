@@ -31,7 +31,7 @@ const MenuNew = () => {
                     Our work
                   </Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/">
+                <LinkContainer to="/Page3CanHelp">
                   <Nav.Link className="link text-warning me-sm-1 me-md-4 mt-4 px-0 pb-1">
                     I can help
                   </Nav.Link>
