@@ -1,5 +1,5 @@
 .ICanHelp {
-  margin: 40px auto;
+  margin: 60px 20px 100px;
 }
 
 .vol-title {
@@ -10,6 +10,27 @@
   font-size: 18px;
 }
 .vol-block {
-  padding: 20px 0;
+  padding: 20px 10px;
   width: 50%;
+}
+.contact-logo-page3 {
+  height: 20px;
+}
+
+@media (max-width: 1200px) {
+  .vol-block {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .vol-block {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .vol-block {
+    width: 100%;
+  }
 }

@@ -1,9 +1,8 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-
 import { LinkContainer } from "react-router-bootstrap";
 
-const ModalVolunteer = () => {
+const BecameVolunteer = () => {
   return (
     <>
       <LinkContainer to="/Volunteer">
@@ -20,4 +19,4 @@ const ModalVolunteer = () => {
   );
 };
 
-export default ModalVolunteer;
+export default BecameVolunteer;
