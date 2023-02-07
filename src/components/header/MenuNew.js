@@ -9,7 +9,7 @@ import { LinkContainer } from "react-router-bootstrap";
 const MenuNew = () => {
   return (
     <>
-      <Navbar bg="none" expand="sm" className="mb-3">
+      <Navbar bg="none" expand="md" className="mb-3">
         <Container fluid>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
           <Navbar.Offcanvas
@@ -31,7 +31,7 @@ const MenuNew = () => {
                     Our work
                   </Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/Page3Volunteer">
+                <LinkContainer to="/">
                   <Nav.Link className="link text-warning me-sm-1 me-md-4 mt-4 px-0 pb-1">
                     I can help
                   </Nav.Link>

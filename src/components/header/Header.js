@@ -16,7 +16,7 @@ const Header = () => {
       <div className="mt-lg-5 mt-3">
         {" "}
         <img src={Logo} alt="Logo" className="logo" />
-        <LinkContainer to="/Page3Volunteer">
+        <LinkContainer to="/Volunteer">
           <Button
             variant="link"
             target="_blank"
@@ -26,7 +26,7 @@ const Header = () => {
             BECOME A VOLONTEER
           </Button>
         </LinkContainer>
-        <LinkContainer to="/Page3Volunteer">
+        <LinkContainer to="/Volunteer">
           <Button
             variant="link"
             target="_blank"

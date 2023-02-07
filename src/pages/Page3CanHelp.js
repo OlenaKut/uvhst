@@ -1,17 +1,14 @@
 import React from "react";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import Volunteer from "../components/pages/Volunteer";
-import "../components/pages/Volunteer.css";
 
-const Page3Volunteer = () => {
+const Page3CanHelp = () => {
   return (
     <div>
       <Header />
-      <Volunteer />
       <Footer />
     </div>
   );
 };
 
-export default Page3Volunteer;
+export default Page3CanHelp;
