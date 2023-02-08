@@ -43,7 +43,7 @@ const MenuNew = () => {
                 </LinkContainer>
                 <LinkContainer to="/Page5Team">
                   <Nav.Link className="link text-warning me-sm-1 me-md-3 mt-4  px-0 pb-1">
-                    Our team
+                    About UVHS
                   </Nav.Link>
                 </LinkContainer>
               </Nav>
