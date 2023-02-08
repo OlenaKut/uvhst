@@ -1,4 +1,3 @@
-
 const news = [
   {
     name: "Donation of 200 tourniquets from Sergei Prokopov",

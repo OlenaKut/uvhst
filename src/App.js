@@ -6,6 +6,8 @@ import Volunteer from "./components/pages/Volunteer";
 import Page3CanHelp from "./pages/Page3CanHelp";
 import Page4NeedHelp from "./pages/Page4NeedHelp";
 import Page5Team from "./pages/Page5Team";
+import MyCookie from "./components/MyCookie";
+import posthog from "posthog-js";
 
 const App = () => {
   return (
@@ -18,6 +20,10 @@ const App = () => {
         <Route path="/Page4NeedHelp" element={<Page4NeedHelp />} />
         <Route path="/Page5Team" element={<Page5Team />} />
       </Routes>
+      {posthog.has_opted_out_capturing() || // new
+      posthog.has_opted_in_capturing() ? null : (
+        <MyCookie />
+      )}
     </div>
   );
 };
