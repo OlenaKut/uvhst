@@ -8,14 +8,14 @@ import Mail from "../../pictures/Mail_icon_black.png";
 const ICanHelp = () => {
   return (
     <div className="my-5">
-      <div className="vol-block rounded-2 shadow m-auto container-fluid">
+      <div className="vol-block shadow m-auto container-fluid">
         <h3 className="vol-title text-center">I want to become a volunteer</h3>
         <p className="vol-text">
           We always need good help! You can find more information here:{" "}
           <BecameVolunteer />
         </p>
       </div>
-      <div className="vol-block rounded-2 shadow my-4 m-auto container-fluid">
+      <div className="vol-block shadow my-4 m-auto container-fluid">
         <h3 className="vol-title text-center">I want donate money or things</h3>
 
         <h4 className="text-warning text-center">We welcome all donations!</h4>
@@ -28,7 +28,7 @@ const ICanHelp = () => {
           here: <DonateHere />
         </p>
       </div>
-      <div className="vol-block rounded-2 shadow m-auto my-4 container-fluid">
+      <div className="vol-block shadow m-auto my-4 container-fluid">
         <h3 className="vol-title text-center">Partnership</h3>
         <p className="vol-text">
           We are always looking for partners for cooperation in our work,

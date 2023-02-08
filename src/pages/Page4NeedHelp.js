@@ -11,7 +11,7 @@ const Page4NeedHelp = () => {
   return (
     <div>
       <Header />
-      <div className="need-help rounded-2 shadow m-auto my-5 p-4 container-fluid">
+      <div className="need-help shadow m-auto my-5 p-4 container-fluid">
         <h2 className="vol-title text-center mb-3">How to get help</h2>
         <p className="need-subtext">
           If you represent or cooperate with a military unit or group,
@@ -66,7 +66,7 @@ const Page4NeedHelp = () => {
           Thank you for your work and support to Ukraine!
         </h5>
       </div>
-      <div className="need-help rounded-2 shadow m-auto my-5 p-4 container-fluid">
+      <div className="need-help shadow m-auto my-5 p-4 container-fluid">
         <h2 className="vol-title text-center mb-3">
           A report on the assistance received
         </h2>
