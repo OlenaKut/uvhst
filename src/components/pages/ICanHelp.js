@@ -7,9 +7,9 @@ import Mail from "../../pictures/Mail_icon_black.png";
 
 const ICanHelp = () => {
   return (
-    <div className="ICanHelp">
-      <div className="vol-block rounded-2 shadow m-auto my-4 container-fluid">
-        <h3 className="vol-title  text-center">I want to become a volunteer</h3>
+    <div className="my-5">
+      <div className="vol-block rounded-2 shadow m-auto container-fluid">
+        <h3 className="vol-title text-center">I want to become a volunteer</h3>
         <p className="vol-text">
           We always need good help! You can find more information here:{" "}
           <BecameVolunteer />
