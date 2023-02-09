@@ -8,14 +8,14 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 function Dashboard() {
-  const [user, loading, error] = useAuthState(auth);
+  const [user, loading] = useAuthState(auth);
   const [name, setName] = useState("");
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const onHide = () => handleClose();
+
 
   const fetchUserName = async () => {
     try {
