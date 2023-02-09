@@ -34,6 +34,7 @@ function Dashboard() {
     if (loading) return;
 
     if (!user) {
+      
       return navigate("/");
     }
 
