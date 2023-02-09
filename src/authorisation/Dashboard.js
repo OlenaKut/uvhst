@@ -11,13 +11,12 @@ function Dashboard() {
   const [user, loading] = useAuthState(auth);
   const [name, setName] = useState("");
   const [show, setShow] = useState(false);
-  const navigate = useNavigate();
+  const myNavigate = useNavigate();
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-
-  const fetchUserName = async () => {
+  const fetchUser = async () => {
     try {
       const q = query(collection(db, "users"), where("uid", "==", user?.uid));
       const doc = await getDocs(q);
@@ -34,10 +33,10 @@ function Dashboard() {
     if (loading) return;
 
     if (!user) {
-      return navigate("/");
+      return myNavigate("/");
     }
 
-    fetchUserName();
+    fetchUser();
   }, [user, loading]);
 
   return (
