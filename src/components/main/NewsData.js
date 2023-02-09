@@ -4,7 +4,7 @@ const news = [
     text: "A donation of 200 tourniquets was received from Sergei Prokopov. This is a very generous and extremely important donation! Tourniquets save lives. Part of these tourniquets are already delivered to the units at the frontlines, report is coming tomorrow. More tourniquets are on the way to scouts in Ternopil where they are assembling personal first aid kits for the frontlines. We are very grateful. We continue collecting donations at Sveavägen 162, Stockholm, on Sundays from 14:00 - 18:00. Glory to Ukraine!",
     account:
       "Recipient: Ukrainian Institute of Sweden ✅ Bankgiro: 109 - 9316 ✅ Swish number: 1230988212 ✅ Message: UAaid ✅ IBAN: SE5480000832799249918781 ✅ BIC: SWEDSESS ✅",
-    img: "https://scontent.fbma2-1.fna.fbcdn.net/v/t39.30808-6/328947676_1343235653121895_7301047808090887455_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=rhEOvmQE8WgAX8yD1KX&_nc_ht=scontent.fbma2-1.fna&oh=00_AfANB7D76c5fx0p2y4NXf_89NbBM4o1hoJfbH-E6H3V3LQ&oe=63E24D53",
+    img: "https://scontent.fbma2-1.fna.fbcdn.net/v/t39.30808-6/328947676_1343235653121895_7301047808090887455_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=2pyRSKEYt2cAX9Ih5mz&_nc_ht=scontent.fbma2-1.fna&oh=00_AfBU4ibZWwhfOcBAtpfCWSoWK2K9qDQWr1RFZuH7um9RfA&oe=63EA3653",
   },
   {
     name: "Thanks to the volunteers for great jobb!",
