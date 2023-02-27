@@ -27,9 +27,12 @@
 .news-block {
   width: 80%;
 }
+
 .news-image {
   width: 100%;
+  background: transparent;
 }
+
 .news-title {
   font-size: 32px;
 }

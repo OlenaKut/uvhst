@@ -7,6 +7,8 @@ import Med from "../../pictures/carousel/med.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const OneCarousel = () => {
   return (
@@ -14,44 +16,52 @@ const OneCarousel = () => {
       <div className="carousel p-3 container-fluid d-lg-block d-none">
         <Carousel cols={3} rows={1} gap={0} loop autoplay={10000}>
           <Carousel.Item>
-            <img
-              className="m-auto d-flex justify-content-between img-carousel w-75"
-              src={Clothes}
-              alt="Clothes"
-            />
+            <Zoom>
+              <img
+                className="m-auto d-flex justify-content-between img-carousel w-75"
+                src={Clothes}
+                alt="Clothes"
+              />
+            </Zoom>
             <div className="text-center carousel-text mt-2">
               <h5>Clothes</h5>
               <p>This is a list of clothing needs</p>
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="m-auto d-flex justify-content-between w-75"
-              src={Energy}
-              alt="Energy"
-            />
+            <Zoom>
+              <img
+                className="m-auto d-flex justify-content-between w-75"
+                src={Energy}
+                alt="Energy"
+              />
+            </Zoom>
             <div className="text-center carousel-text mt-2">
               <h5>Energy</h5>
               <p>This is a list of batteries and lights needs</p>
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="m-auto d-flex justify-content-between w-75"
-              src={Food}
-              alt="Food"
-            />
+            <Zoom>
+              <img
+                className="m-auto d-flex justify-content-between w-75"
+                src={Food}
+                alt="Food"
+              />
+            </Zoom>
             <div className="text-center carousel-text mt-2">
               <h5>Food</h5>
               <p>This is a list of food needs</p>
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="m-auto d-flex justify-content-between w-75"
-              src={Med}
-              alt="Medicine"
-            />
+            <Zoom>
+              <img
+                className="m-auto d-flex justify-content-between w-75"
+                src={Med}
+                alt="Medicine"
+              />
+            </Zoom>
             <div className="text-center carousel-text mt-2">
               <h5>Medicine</h5>
               <p>This is a list of medicine needs</p>

@@ -1,5 +1,7 @@
 import React from "react";
 import news from "./NewsData";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const MainBlock = () => {
   return (
@@ -9,11 +11,13 @@ const MainBlock = () => {
           <div key={index}>
             <div className="m-3 d-lg-flex d-block justify-content-between shadow">
               <div className="m-2 p-2 align-self-center">
-                <img
-                  src={newa.imageLink}
-                  alt="News"
-                  className="news-image rounded-2 m-1"
-                />
+                <Zoom>
+                  <img
+                    src={newa.imageLink}
+                    alt="News"
+                    className="news-image rounded-2 m-1"
+                  />
+                </Zoom>
               </div>
               <div className="m- p-2 align-self-center">
                 <h4 className="news-title m-lg-2 m-2">{newa.name}</h4>
