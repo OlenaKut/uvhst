@@ -17,9 +17,7 @@
 .carousel-text {
   color: rgb(107, 103, 103);
 }
-.img-instead {
-  transform: rotate(-180deg);
-}
+
 .undertext {
   color: rgb(112, 112, 114);
   font-size: 14px;
@@ -102,9 +100,10 @@
 }
 
 @media (max-width: 996px) {
-  .img-instead {
+  .carousel {
     margin-top: -140px;
   }
+
   .news-image {
     width: 100%;
   }
@@ -116,9 +115,10 @@
   }
 }
 @media (max-width: 778px) {
-  .img-instead {
+  .carousel {
     margin-top: -120px;
   }
+
   .news-title {
     text-align: center;
   }
@@ -130,12 +130,12 @@
   }
 }
 @media (max-width: 650px) {
-  .img-instead {
+  .carousel {
     margin-top: -100px;
   }
 }
 @media (max-width: 446px) {
-  .img-instead {
+  .carousel {
     margin-top: -10px;
   }
 }
