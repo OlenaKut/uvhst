@@ -14,7 +14,7 @@ import Dashboard from "../../authorisation/Dashboard";
 
 const Header = () => {
   return (
-    <div className="header container-fluid d-flex justify-content-between sticky-top mb-2 shadow-lg rounded-1">
+    <div className="header container-fluid d-flex justify-content-between mb-2 shadow-lg rounded-1">
       <div className="mt-lg-5 mt-3">
         <div className="login">
           <Login />
@@ -54,7 +54,7 @@ const Header = () => {
       </div>
 
       <div className="position-absolute end-0">
-        <MenuNew />
+        <MenuNew/>
       </div>
     </div>
   );

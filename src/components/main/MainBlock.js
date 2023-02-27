@@ -10,7 +10,7 @@ const MainBlock = () => {
             <div className="m-3 d-lg-flex d-block justify-content-between shadow">
               <div className="m-2 p-2 align-self-center">
                 <img
-                  src={newa.img}
+                  src={newa.imageLink}
                   alt="News"
                   className="news-image rounded-2 m-1"
                 />

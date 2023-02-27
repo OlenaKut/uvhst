@@ -12,7 +12,7 @@ const OneCarousel = () => {
   return (
     <div>
       <div className="carousel p-3 container-fluid d-lg-block d-none">
-        <Carousel cols={3} rows={1} gap={0} loop autoplay={4000}>
+        <Carousel cols={3} rows={1} gap={0} loop autoplay={10000}>
           <Carousel.Item>
             <img
               className="m-auto d-flex justify-content-between img-carousel w-75"

@@ -8,7 +8,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const MenuNew = () => {
   return (
-    <>
+    <div>
       <Navbar bg="none" expand="md" className="mb-3">
         <Container fluid>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
@@ -51,7 +51,7 @@ const MenuNew = () => {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </>
+    </div>
   );
 };
 export default MenuNew;
