@@ -9,17 +9,13 @@ import {
   AlternativeButtonTwo,
 } from "../header/AlternativeButton";
 import { LinkContainer } from "react-router-bootstrap";
-import Login from "../../authorisation/Login";
-import Dashboard from "../../authorisation/Dashboard";
+
 
 const Header = () => {
   return (
     <div className="header container-fluid d-flex justify-content-between mb-2 shadow-lg rounded-1">
       <div className="mt-lg-5 mt-3">
-        <div className="login">
-          <Login />
-          <Dashboard />
-        </div>
+        <div className="login"></div>
 
         <img src={Logo} alt="Logo" className="logo" />
         <LinkContainer to="/Volunteer">
@@ -54,7 +50,7 @@ const Header = () => {
       </div>
 
       <div className="position-absolute end-0">
-        <MenuNew/>
+        <MenuNew />
       </div>
     </div>
   );

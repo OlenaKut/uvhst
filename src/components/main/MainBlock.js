@@ -2,10 +2,12 @@ import React from "react";
 import news from "./NewsData";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import Button from "react-bootstrap/Button";
+import { LinkContainer } from "react-router-bootstrap";
 
 const MainBlock = () => {
   return (
-    <div className="container-fluid news-block">
+    <div className="container-fluid news-block mb-5">
       {news.slice(0, 3).map((newa, index) => {
         return (
           <div key={index}>
@@ -28,6 +30,16 @@ const MainBlock = () => {
           </div>
         );
       })}
+      <div className="position-relative pb-2 m-3">
+        <LinkContainer to="/Page2News">
+          <Button
+            variant="outline-info"
+            className="position-absolute top-0 end-0 "
+          >
+            Read more...
+          </Button>
+        </LinkContainer>
+      </div>
     </div>
   );
 };

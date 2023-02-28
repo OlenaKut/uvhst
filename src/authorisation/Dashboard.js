@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 import "../authorisation/Dashboard.css";
 import { auth, db, logout } from "../authorisation/firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
@@ -11,11 +11,10 @@ function Dashboard() {
   const [user, loading] = useAuthState(auth);
   const [name, setName] = useState("");
   const [show, setShow] = useState(false);
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
 
   const fetchUserName = async () => {
     try {
@@ -25,18 +24,13 @@ function Dashboard() {
 
       setName(data.name);
     } catch (err) {
-      console.error(err);
+      //console.error(err);
       alert("An error occured while fetching user data");
     }
   };
 
   useEffect(() => {
     if (loading) return;
-
-    if (!user) {
-      
-      return navigate("/");
-    }
 
     fetchUserName();
   }, [user, loading]);
