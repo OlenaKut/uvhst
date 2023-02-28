@@ -10,14 +10,16 @@ import {
 } from "../header/AlternativeButton";
 import { LinkContainer } from "react-router-bootstrap";
 
-
 const Header = () => {
   return (
     <div className="header container-fluid d-flex justify-content-between mb-2 shadow-lg rounded-1">
       <div className="mt-lg-5 mt-3">
         <div className="login"></div>
-
-        <img src={Logo} alt="Logo" className="logo" />
+        <LinkContainer to="/">
+          <Button variant="link" target="_blank" rel="noopener noreferrer">
+            <img src={Logo} alt="Logo" className="logo" />
+          </Button>
+        </LinkContainer>
         <LinkContainer to="/Volunteer">
           <Button
             variant="link"
