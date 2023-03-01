@@ -6,7 +6,7 @@ import { auth, db, logout } from "../authorisation/firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { LinkContainer } from "react-router-bootstrap";
+//import { LinkContainer } from "react-router-bootstrap";
 
 function Dashboard() {
   const [user, loading] = useAuthState(auth);
