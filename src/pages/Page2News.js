@@ -2,22 +2,24 @@ import React from "react";
 import news from "./../components/main/NewsData";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-
+import Zoom from "react-medium-image-zoom";
 const Page2News = () => {
   return (
     <div>
       <Header />
-      <div className="container-fluid news-block">
+      <div className="container-fluid news-block mb-5">
         {news.map((newa, index) => {
           return (
             <div key={index}>
               <div className="m-3 d-lg-flex d-block justify-content-between shadow">
                 <div className="m-2 p-2 align-self-center">
-                  <img
-                    src={newa.img}
-                    alt="News"
-                    className="news-image rounded-2 m-1"
-                  />
+                  <Zoom>
+                    <img
+                      src={newa.imageLink}
+                      alt="News"
+                      className="news-image rounded-2 m-1"
+                    />
+                  </Zoom>
                 </div>
                 <div className="m- p-2 align-self-center">
                   <h4 className="news-title m-lg-2 m-2">{newa.name}</h4>
