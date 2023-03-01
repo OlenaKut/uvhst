@@ -18,21 +18,21 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDIXJ5YT7hoNbBFqK3TBcV41-TzIO-7n7w",
-  authDomain: "fir-auth-6edd8.firebaseapp.com",
-  projectId: "fir-auth-6edd8",
-  storageBucket: "fir-auth-6edd8.appspot.com",
-  messagingSenderId: "904760319835",
-  appId: "1:904760319835:web:44fd0d957f114b4e51447e",
-  measurementId: "G-Q4TYKH9GG7",
+  apiKey: "AIzaSyAJBVsksYVCtekInGDol4qBjrsD4D3Ift0",
+  authDomain: "uvhst-a81bd.firebaseapp.com",
+  projectId: "uvhst-a81bd",
+  storageBucket: "uvhst-a81bd.appspot.com",
+  messagingSenderId: "651432650978",
+  appId: "1:651432650978:web:a9c68dfa0ce2af3a64d6bb",
+  measurementId: "G-9SP5E4XLC8",
 };
 
 const app = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
 const googleProvider = new GoogleAuthProvider();
-
 const signInWithGoogle = async () => {
   try {
     const res = await signInWithPopup(auth, googleProvider);
@@ -48,8 +48,8 @@ const signInWithGoogle = async () => {
       });
     }
   } catch (err) {
-    console.error(err);
-    alert(err.message);
+    //console.error(err);
+    //alert(err.message);
   }
 };
 

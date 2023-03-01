@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../authorisation/Dashboard.css";
 import { auth, db, logout } from "../authorisation/firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import { LinkContainer } from "react-router-bootstrap";
 
 function Dashboard() {
   const [user, loading] = useAuthState(auth);
   const [name, setName] = useState("");
   const [show, setShow] = useState(false);
-  //const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -25,12 +26,13 @@ function Dashboard() {
       setName(data.name);
     } catch (err) {
       //console.error(err);
-      alert("An error occured while fetching user data");
+      //alert("An error occured while fetching user data");
     }
   };
 
   useEffect(() => {
-    if (loading) return;
+    if (loading) return navigate("/");
+    if (!user) return navigate("/");
 
     fetchUserName();
   }, [user, loading]);
@@ -40,6 +42,7 @@ function Dashboard() {
       <Button variant="none" onClick={handleShow}>
         LogOut
       </Button>
+
       <Modal show={show} onHide={handleClose}>
         <div className="">
           <div className="dashboard__container">
