@@ -23,7 +23,8 @@ const Emailjs = () => {
         (result) => {
           console.log(result.text);
           alert("Thank you for subscribing!");
-          form.current.value = " ";
+          document.getElementById("inputText").value = "";
+          document.getElementById("inputMail").value = "";
         },
         (error) => {
           console.log(error.text);
@@ -49,10 +50,8 @@ const Emailjs = () => {
                 placeholder="Enter your name"
                 aria-describedby="inputGroupPrepend"
                 required
+                id="inputText"
               />
-              <Form.Control.Feedback type="invalid">
-                Please Enter a name.
-              </Form.Control.Feedback>
             </InputGroup>
           </Form.Group>
           <Form.Group as={Col} md="" controlId="validationCustomUsername">
@@ -60,14 +59,12 @@ const Emailjs = () => {
               <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
               <Form.Control
                 type="email"
+                name="user_email"
                 placeholder="Enter your email"
                 aria-describedby="inputGroupPrepend"
                 required
-                name="user_email"
+                id="inputMail"
               />
-              <Form.Control.Feedback type="invalid">
-                Please Enter a email.
-              </Form.Control.Feedback>
             </InputGroup>
           </Form.Group>
         </Row>
