@@ -23,8 +23,7 @@ const Emailjs = () => {
         (result) => {
           console.log(result.text);
           alert("Thank you for subscribing!");
-          document.getElementById("inputText").value = "";
-          document.getElementById("inputMail").value = "";
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -50,7 +49,6 @@ const Emailjs = () => {
                 placeholder="Enter your name"
                 aria-describedby="inputGroupPrepend"
                 required
-                id="inputText"
               />
             </InputGroup>
           </Form.Group>
@@ -63,7 +61,6 @@ const Emailjs = () => {
                 placeholder="Enter your email"
                 aria-describedby="inputGroupPrepend"
                 required
-                id="inputMail"
               />
             </InputGroup>
           </Form.Group>
