@@ -4,7 +4,8 @@ import MediaLinks from "../header/MediaLinks";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Subscribe from "../footer/Subscribe";
+//import Subscribe from "../footer/Subscribe";
+import Emailjs from "../footer/Emailjs";
 
 import "../footer/Footer.css";
 
@@ -20,7 +21,7 @@ const Footer = () => {
             <MediaLinks />
           </Col>
           <Col md lg="4">
-            <Subscribe />
+            <Emailjs />
           </Col>
         </Row>
       </Container>

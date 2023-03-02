@@ -1,22 +1,16 @@
-import React, { useState, useRef } from "react";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
-import Row from "react-bootstrap/Row";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Form from "react-bootstrap/Form";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
+import InputGroup from "react-bootstrap/InputGroup";
 
-const Subscribe = () => {
+const Emailjs = () => {
   const form = useRef();
-  const [validated, setValidated] = useState(false);
 
   const sendEmail = (e) => {
-    const form = e.currentTarget;
-
-    if (form.checkValidity() === false) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
+    e.preventDefault();
 
     emailjs
       .sendForm(
@@ -28,14 +22,13 @@ const Subscribe = () => {
       .then(
         (result) => {
           console.log(result.text);
-          
+          alert("Thank you for subscribing!");
+          form.current.value = " ";
         },
         (error) => {
           console.log(error.text);
         }
       );
-
-    setValidated(true);
   };
 
   return (
@@ -45,9 +38,23 @@ const Subscribe = () => {
         Join our weekly email newsletter to receive news, events and other
         announcements about what is going on at our Hub
       </p>
-
-      <Form noValidate validated={validated} onSubmit={sendEmail} ref={form}>
+      <Form ref={form} onSubmit={sendEmail}>
         <Row className="mb-3">
+          <Form.Group as={Col} md="" controlId="validationCustomUsername">
+            <InputGroup hasValidation>
+              <InputGroup.Text id="inputGroupPrepend">🙍🏻‍♂️</InputGroup.Text>
+              <Form.Control
+                type="text"
+                name="user_name"
+                placeholder="Enter your name"
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+              <Form.Control.Feedback type="invalid">
+                Please Enter a name.
+              </Form.Control.Feedback>
+            </InputGroup>
+          </Form.Group>
           <Form.Group as={Col} md="" controlId="validationCustomUsername">
             <InputGroup hasValidation>
               <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
@@ -85,4 +92,4 @@ const Subscribe = () => {
   );
 };
 
-export default Subscribe;
+export default Emailjs;
