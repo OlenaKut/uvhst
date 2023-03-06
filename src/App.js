@@ -1,3 +1,4 @@
+import React, { Suspense, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import FirstPage from "./pages/FirstPage";
@@ -6,26 +7,35 @@ import Volunteer from "./components/pages/Volunteer";
 import Page3CanHelp from "./pages/Page3CanHelp";
 import Page4NeedHelp from "./pages/Page4NeedHelp";
 import Page5Team from "./pages/Page5Team";
-
 import Login from "./authorisation/Login";
 import Register from "./authorisation/Register";
 import Reset from "./authorisation/Reset";
 import Dashboard from "./authorisation/Dashboard";
-
 import MyCookie from "./components/MyCookie";
 import posthog from "posthog-js";
 
+import Navigation from "./translation/Navigation";
+import Loading from "./translation/Loading";
+import i18n from "./i18n";
+import LocaleContext from "./LocaleContext";
+
 const App = () => {
+  const [locale, setLocale] = useState(i18n.language);
+  i18n.on("languageChanged", (lng) => setLocale(i18n.language));
+
   return (
     <div>
+      <LocaleContext.Provider value={{ locale, setLocale }}>
+        <Suspense fallback={<Loading />}>
+          <Navigation />
+        </Suspense>
+      </LocaleContext.Provider>
       <Routes>
         <Route path="/" element={<FirstPage />} />
-
         <Route path="/Login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/reset" element={<Reset />} />
         <Route path="/dashboard" element={<Dashboard />} />
-
         <Route path="/Page2News" element={<Page2News />} />
         <Route path="/Volunteer" element={<Volunteer />} />
         <Route path="/Page3CanHelp" element={<Page3CanHelp />} />
