@@ -36,5 +36,25 @@
     "undertext": "Vi samlar in pengar och saker som är mycket nödvändiga för människor i Ukraina idag",
     "donate-text": "Du kan donera",
     "donate-link": "här"
+  },
+
+  "projects": {
+    "children": {
+      "children-title": "Hjälp till barn i Ukraina",
+      "children-text": "Tusentals barn i Ukraina behöver hjälp. Du kan gå med i ett av våra projekt",
+      "projects-btn": "VISA DETALJER"
+    },
+    "displsced": {
+      "displsced-title": "Hjälp till internflyktingar",
+      "displsced-text": "Miljontals människor i Ukraina lämnades utan hem och försörjning. Även den minsta hjälpen är viktig"
+    },
+    "refugees": {
+      "refugees-title": "Hjälp till flyktingar i Sverige",
+      "refugees-text": "Hundratusentals ukrainare tvingades fly sina hem med en alarmerande resväska. De behöver vårt stöd och hjälp"
+    },
+    "military": {
+      "military-title": "Militär hjälp",
+      "military-text": "Tusentals soldater från Ukraina och andra länder kämpar för segern över angriparen varje dag. Vi kan hjälpa till med ammunition och annat väsentligt längst fram"
+    }
   }
 }

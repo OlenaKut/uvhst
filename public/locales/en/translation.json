@@ -19,6 +19,7 @@
     "header-volunteer-btn": "Become a volunteer",
     "header-donate-btn": "Donate here"
   },
+
   "menu": {
     "home": "Home",
     "ourwork": "Our work",
@@ -36,5 +37,28 @@
     "undertext": "We collect money and by things that are very necessary for people in Ukraine today",
     "donate-text": "You can donate",
     "donate-link": "here"
+  },
+
+  "projects": {
+    "children": {
+      "children-title": "Assistance to children in Ukraine",
+      "children-text": "Thousands of children in Ukraine need help. You can join one of our projects",
+      "projects-btn": "VIEW DETAILS"
+    },
+    "displsced": {
+      "displsced-title": "Assistance to internally displaced persons",
+      "displsced-text": "Millions of people in Ukraine were left without homes and means of livelihood. Even the smallest help is important",
+      "projects-btn": "VIEW DETAILS"
+    },
+    "refugees": {
+      "refugees-title": "Assistance to refugees in Sweden",
+      "refugees-text": "Hundreds of thousands of Ukrainians were forced to flee their homes with one alarming suitcase. They need our support and help",
+      "projects-btn": "VIEW DETAILS"
+    },
+    "military": {
+      "military-title": "Military assistance",
+      "military-text": "Thousands of soldiers from Ukraine and other countries fight for victory over the aggressor every day. We can help with ammunition and other essentials at the front",
+      "projects-btn": "VIEW DETAILS"
+    }
   }
 }
