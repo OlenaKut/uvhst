@@ -2,14 +2,20 @@ import React from "react";
 import "../subheader/subheader.css";
 import swish from "../../pictures/swish.jpg";
 
+import { useTranslation } from "react-i18next";
+
 const Subheader = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="subheader container-fluid d-flex">
       <div className="donate-block d-lg-block d-none">
-        <p className="iwanthelp">I want to help</p>
+        <p className="iwanthelp">{t("subheader.iwant-to-help-text")}</p>
         <div className="donate-text d-flex">
           <div>
-            <h4 className="mx-3 my-1 text-primary fw-normal"> Donate here:</h4>
+            <h4 className="mx-3 my-1 text-primary fw-normal">
+              {t("page1.header-donate-btn")}
+            </h4>
             <p className="mx-3 my-1 fw-semibold lh-sm">
               Recipient: Ukrainian Institute of Sweden
               <br />
@@ -41,13 +47,7 @@ const Subheader = () => {
           <span className="text-warning info-name">
             Ukrainian Volunteer Hub Stockholm{" "}
           </span>
-          is a team of about 200 volunteers who have come together in February
-          2022 to help Ukraine. We help hospitals in Ukraine, orphanages, people
-          who suffered from war and soldiers at the front. During our work, we
-          collected approximately SEK 2 million and sent more than 100 trucks
-          with humanitarian aid to Ukraine. Now we are trying to collect more
-          things that will help in Ukraine. We are convinced that every donation
-          is important and can save someone's life.
+          {t("subheader.about-info")}
         </p>
       </div>
     </div>

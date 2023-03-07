@@ -4,7 +4,11 @@ import Zoom from "react-medium-image-zoom";
 import images from "./CarouselData";
 import "react-medium-image-zoom/dist/styles.css";
 
+import { useTranslation } from "react-i18next";
+
 const OneCarousel = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="carousel p-3 container-fluid">
       <Carousel
@@ -34,18 +38,16 @@ const OneCarousel = () => {
         })}
       </Carousel>
       <div className="m-auto text-center fst-italic undertext pt-2">
-        <h5>
-          We collect money and by things that are very necessary for people in
-          Ukraine today.
-        </h5>
+        <h5>{t("carousel.undertext")}</h5>
         <h6>
-          You can donate{" "}
+          {t("carousel.donate-text")}
           <a
             href="https://www.facebook.com/uavhub.stockholm"
             target="_blank"
             rel="noopener noreferrer"
           >
-            here
+            {" "}
+            {t("carousel.donate-link")}
           </a>
         </h6>
       </div>

@@ -16,8 +16,8 @@
   },
 
   "page1": {
-    "header-volunteer-btn": "BLI EN FRIVILLIG",
-    "header-donate-btn": "DONERA HÄR"
+    "header-volunteer-btn": "Bli en frivillig",
+    "header-donate-btn": "Donera här"
   },
   "menu": {
     "home": "Hem",
@@ -25,5 +25,16 @@
     "icanhelp": "Jag kan hjälpa",
     "ineedhelp": "Jag behöver hjälp",
     "about": "Om UVHST"
+  },
+
+  "subheader": {
+    "iwant-to-help-text": "Jag vill hjälpa till",
+    "about-info": "är ett team på cirka 200 volontärer som har samlats i februari 2022 för att hjälpa Ukraina. Vi hjälper sjukhus i Ukraina, barnhem, människor som led av krig och soldater vid fronten. Under vårt arbete samlade vi in ​​cirka 2 miljoner kronor och skickade över 100 lastbilar med humanitär hjälp till Ukraina. Nu försöker vi samla in fler saker som kommer att hjälpa i Ukraina. Vi är övertygade om att varje donation är viktig och kan rädda någons liv"
+  },
+
+  "carousel": {
+    "undertext": "Vi samlar in pengar och saker som är mycket nödvändiga för människor i Ukraina idag",
+    "donate-text": "Du kan donera",
+    "donate-link": "här"
   }
 }

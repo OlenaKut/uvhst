@@ -16,8 +16,8 @@
   },
 
   "page1": {
-    "header-volunteer-btn": "BECOME A VOLUNTEER",
-    "header-donate-btn": "DONATE HERE"
+    "header-volunteer-btn": "Become a volunteer",
+    "header-donate-btn": "Donate here"
   },
   "menu": {
     "home": "Home",
@@ -25,5 +25,16 @@
     "icanhelp": "I can help",
     "ineedhelp": "I need help",
     "about": "About UVHST"
+  },
+
+  "subheader": {
+    "iwant-to-help-text": "I want to help",
+    "about-info": "is a team of about 200 volunteers who have come together in February 2022 to help Ukraine. We help hospitals in Ukraine, orphanages, people who suffered from war and soldiers at the front. During our work, we collected approximately SEK 2 million and sent more than 100 trucks with humanitarian aid to Ukraine. Now we are trying to collect more things that will help in Ukraine. We are convinced that every donation is important and can save someone's life"
+  },
+
+  "carousel": {
+    "undertext": "We collect money and by things that are very necessary for people in Ukraine today",
+    "donate-text": "You can donate",
+    "donate-link": "here"
   }
 }

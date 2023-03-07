@@ -50,7 +50,7 @@ const Header = () => {
             variant="link"
             target="_blank"
             rel="noopener noreferrer"
-            className="donate rounded-0 d-none d-lg-inline text-decoration-none"
+            className="donate rounded-0 d-none d-lg-inline text-decoration-none text-uppercase"
           >
             {t("page1.header-donate-btn")}
           </Button>
@@ -60,7 +60,7 @@ const Header = () => {
             variant="link"
             target="_blank"
             rel="noopener noreferrer"
-            className="donate rounded-0 d-none d-lg-inline text-decoration-none"
+            className="donate rounded-0 d-none d-lg-inline text-decoration-none text-uppercase"
           >
             {t("page1.header-volunteer-btn")}
           </Button>
@@ -75,7 +75,6 @@ const Header = () => {
       <div className="d-none d-sm-block">
         <MediaLinks />
       </div>
-
       <div className="position-absolute end-0">
         <MenuNew />
       </div>
