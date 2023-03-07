@@ -16,8 +16,12 @@ import LocaleContext from "../../LocaleContext";
 import Navigation from "../../translation/Navigation";
 import Loading from "../../translation/Loading";
 
+import { useTranslation } from "react-i18next";
+
 const Header = () => {
   const [locale, setLocale] = useState(i18n.language);
+  const { t } = useTranslation();
+
   i18n.on("languageChanged", (lng) => setLocale(i18n.language));
 
   return (
@@ -48,7 +52,7 @@ const Header = () => {
             rel="noopener noreferrer"
             className="donate rounded-0 d-none d-lg-inline text-decoration-none"
           >
-            BECOME A VOLONTEER
+            {t("page1.header-donate-btn")}
           </Button>
         </LinkContainer>
         <LinkContainer to="/Volunteer">
@@ -58,7 +62,7 @@ const Header = () => {
             rel="noopener noreferrer"
             className="donate rounded-0 d-none d-lg-inline text-decoration-none"
           >
-            DONATE HERE
+            <span>{t("page1.header-volunteer-btn")}</span>
           </Button>
         </LinkContainer>
         <h1 className="name mb-3">Ukrainian Volunteer Hub Stockholm</h1>
