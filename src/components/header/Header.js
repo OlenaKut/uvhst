@@ -62,7 +62,7 @@ const Header = () => {
             rel="noopener noreferrer"
             className="donate rounded-0 d-none d-lg-inline text-decoration-none"
           >
-            <span>{t("page1.header-volunteer-btn")}</span>
+            {t("page1.header-volunteer-btn")}
           </Button>
         </LinkContainer>
         <h1 className="name mb-3">Ukrainian Volunteer Hub Stockholm</h1>

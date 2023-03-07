@@ -18,5 +18,12 @@
   "page1": {
     "header-volunteer-btn": "BECOME A VOLUNTEER",
     "header-donate-btn": "DONATE HERE"
+  },
+  "menu": {
+    "home": "Home",
+    "ourwork": "Our work",
+    "icanhelp": "I can help",
+    "ineedhelp": "I need help",
+    "about": "About UVHST"
   }
 }

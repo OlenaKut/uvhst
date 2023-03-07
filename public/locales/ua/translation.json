@@ -19,5 +19,12 @@
   "page1": {
     "header-volunteer-btn": "СТАТИ ВОЛОНТЕРОМ",
     "header-donate-btn": "ЗАДОНАТИТИ"
+  },
+    "menu": {
+    "home": "Головна",
+    "ourwork": "Наша робота",
+    "icanhelp": "Хочу допомогти",
+    "ineedhelp": "Потрібна допомога",
+    "about": "Про UVHST"
   }
 }

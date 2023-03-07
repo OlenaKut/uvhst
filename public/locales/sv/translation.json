@@ -18,5 +18,12 @@
   "page1": {
     "header-volunteer-btn": "BLI EN FRIVILLIG",
     "header-donate-btn": "DONERA HÄR"
+  },
+  "menu": {
+    "home": "Hem",
+    "ourwork": "Vårt arbete",
+    "icanhelp": "Jag kan hjälpa",
+    "ineedhelp": "Jag behöver hjälp",
+    "about": "Om UVHST"
   }
 }
