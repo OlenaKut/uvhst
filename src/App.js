@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import FirstPage from "./pages/FirstPage";
@@ -14,22 +14,9 @@ import Dashboard from "./authorisation/Dashboard";
 import MyCookie from "./components/MyCookie";
 import posthog from "posthog-js";
 
-import Navigation from "./translation/Navigation";
-import Loading from "./translation/Loading";
-import i18n from "./i18n";
-import LocaleContext from "./LocaleContext";
-
 const App = () => {
-  const [locale, setLocale] = useState(i18n.language);
-  i18n.on("languageChanged", (lng) => setLocale(i18n.language));
-
   return (
     <div>
-      <LocaleContext.Provider value={{ locale, setLocale }}>
-        <Suspense fallback={<Loading />}>
-          <Navigation />
-        </Suspense>
-      </LocaleContext.Provider>
       <Routes>
         <Route path="/" element={<FirstPage />} />
         <Route path="/Login" element={<Login />} />

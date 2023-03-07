@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useTranslation } from "react-i18next";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import LocaleContext from "../LocaleContext";
 import i18n from "../i18n";
 
@@ -15,27 +15,17 @@ const Navigation = () => {
   }
 
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#">React i18n</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <NavDropdown title={t("language")} id="basic-nav-dropdown">
-              <NavDropdown.Item href="#" onClick={() => changeLocale("en")}>
-                English
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#" onClick={() => changeLocale("ua")}>
-                Українська
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#" onClick={() => changeLocale("sv")}>
-                Svenska
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <Nav className="me-auto" title={t()}>
+      <Nav.Link href="#" onClick={() => changeLocale("en")} className="m-2 p-0">
+        En
+      </Nav.Link>
+      <Nav.Link href="#" onClick={() => changeLocale("ua")} className="m-2 p-0">
+        Укр
+      </Nav.Link>
+      <Nav.Link href="#" onClick={() => changeLocale("sv")} className="m-2 p-0">
+        Sv
+      </Nav.Link>
+    </Nav>
   );
 };
 

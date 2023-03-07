@@ -4,6 +4,11 @@
 .login {
   margin: -40px 0 0 96px;
 }
+
+.translate {
+  padding: 0;
+  margin: -40px 0 0 20px;
+}
 .logo {
   width: 70px;
   height: 94px;
@@ -87,6 +92,9 @@
 
 @media (max-width: 1100px) {
   .login {
+    margin: -10px 0 0 20px;
+  }
+  .translate {
     margin: -10px 0 0 20px;
   }
   .logo {

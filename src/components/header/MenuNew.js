@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { LinkContainer } from "react-router-bootstrap";
 
 const MenuNew = () => {
-  return (
+    return (
     <div>
       <Navbar bg="none" expand="md" className="mb-3">
         <Container fluid>

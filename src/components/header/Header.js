@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense, useState } from "react";
 import Logo from "../../pictures/Logo.png";
 import "../header/HeaderMenu.css";
 import Button from "react-bootstrap/Button";
@@ -11,13 +11,31 @@ import {
 import { LinkContainer } from "react-router-bootstrap";
 import Login from "../../authorisation/Login";
 
+import i18n from "../../i18n";
+import LocaleContext from "../../LocaleContext";
+import Navigation from "../../translation/Navigation";
+import Loading from "../../translation/Loading";
+
 const Header = () => {
+  const [locale, setLocale] = useState(i18n.language);
+  i18n.on("languageChanged", (lng) => setLocale(i18n.language));
+
   return (
     <div className="header container-fluid d-flex justify-content-between mb-2 shadow-lg rounded-1">
       <div className="mt-lg-5 mt-3">
-        <div className="login">
-          <Login />
+        <div className="d-flex">
+          <div className="login">
+            <Login />
+          </div>
+          <div className="translate">
+            <LocaleContext.Provider value={{ locale, setLocale }}>
+              <Suspense fallback={<Loading />}>
+                <Navigation />
+              </Suspense>
+            </LocaleContext.Provider>
+          </div>
         </div>
+
         <LinkContainer to="/">
           <Button variant="link" target="_blank" rel="noopener noreferrer">
             <img src={Logo} alt="Logo" className="logo" />
