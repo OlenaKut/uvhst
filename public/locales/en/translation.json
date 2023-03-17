@@ -60,5 +60,14 @@
       "military-text": "Thousands of soldiers from Ukraine and other countries fight for victory over the aggressor every day. We can help with ammunition and other essentials at the front",
       "projects-btn": "VIEW DETAILS"
     }
+  },
+
+  "images": {
+    "img": "../../pictures/carousel/clothes.png",
+    "title": "Clothes",
+    "text": "This is a list of clothing needs"
   }
+  
 }
+
+ 

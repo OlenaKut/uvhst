@@ -5,7 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 const DonateHere = () => {
   return (
     <>
-      <LinkContainer to="/Volunteer">
+      <LinkContainer to="/Donate">
         <Button
           variant="link"
           target="_blank"

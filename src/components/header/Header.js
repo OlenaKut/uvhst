@@ -45,7 +45,7 @@ const Header = () => {
             <img src={Logo} alt="Logo" className="logo" />
           </Button>
         </LinkContainer>
-        <LinkContainer to="/Volunteer">
+        <LinkContainer to="/Donate">
           <Button
             variant="link"
             target="_blank"

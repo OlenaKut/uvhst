@@ -3,7 +3,7 @@ import Carousel from "better-react-carousel";
 import Zoom from "react-medium-image-zoom";
 import images from "./CarouselData";
 import "react-medium-image-zoom/dist/styles.css";
-
+import { LinkContainer } from "react-router-bootstrap";
 import { useTranslation } from "react-i18next";
 
 const OneCarousel = () => {
@@ -41,14 +41,12 @@ const OneCarousel = () => {
         <h5>{t("carousel.undertext")}</h5>
         <h6>
           {t("carousel.donate-text")}
-          <a
-            href="https://www.facebook.com/uavhub.stockholm"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            {t("carousel.donate-link")}
-          </a>
+          <LinkContainer to="/Donate">
+            <a href="/" target="_blank" rel="noopener noreferrer">
+              {" "}
+              {t("carousel.donate-link")}
+            </a>
+          </LinkContainer>
         </h6>
       </div>
     </div>

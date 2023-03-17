@@ -1,0 +1,108 @@
+.donate-page {
+  margin: 60px;
+}
+
+.donate-title {
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.donate-swish {
+  width: 500px;
+  height: 500px;
+}
+
+.donate-subtitle {
+  line-height: 30px;
+  font-size: 24px;
+  background: white;
+  padding: 15px;
+}
+
+.account {
+  font-size: 36px;
+  text-align: left;
+}
+
+@media (max-width: 1440px) {
+  .donate-page {
+    margin: 40px;
+  }
+
+  .donate-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .donate-subtitle {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .account {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .donate-page {
+    margin: 40px 20px;
+  }
+
+  .donate-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .account {
+    font-size: 24px;
+  }
+  .donate-swish {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 992px) {
+  .donate-page {
+    margin: 30px 10px;
+  }
+
+  .donate-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .account {
+    font-size: 20px;
+  }
+  .donate-swish {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .donate-page {
+    margin: 20px;
+  }
+
+  .donate-subtitle {
+    font-size: 16px;
+  }
+  .donate-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .donate-title {
+    font-size: 36px;
+    margin: 20px;
+  }
+  .donate-swish {
+    width: 300px;
+    height: 300px;
+  }
+  .account {
+    font-size: 16px;
+  }
+}

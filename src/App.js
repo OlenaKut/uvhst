@@ -13,6 +13,7 @@ import Reset from "./authorisation/Reset";
 import Dashboard from "./authorisation/Dashboard";
 import MyCookie from "./components/MyCookie";
 import posthog from "posthog-js";
+import Donate from "./components/pages/Donate";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/Page2News" element={<Page2News />} />
         <Route path="/Volunteer" element={<Volunteer />} />
+        <Route path="/Donate" element={<Donate />} />
         <Route path="/Page3CanHelp" element={<Page3CanHelp />} />
         <Route path="/Page4NeedHelp" element={<Page4NeedHelp />} />
         <Route path="/Page5Team" element={<Page5Team />} />
