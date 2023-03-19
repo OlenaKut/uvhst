@@ -3,8 +3,11 @@ import Button from "react-bootstrap/Button";
 import Address from "../../pictures/Location_icon.png";
 import Phone from "../../pictures/Phone-icon.png";
 import Mail from "../../pictures/Mail_icon_black.png";
+import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="mt-5">
       <div className="contact-block">
@@ -18,7 +21,9 @@ const Contacts = () => {
         >
           Sveavägen 162, 113 46 Stockholm
           <br />
-          <span className="fw-lighter p-4">(Sunday 14:00-18:00)</span>
+          <span className="fw-lighter p-4">
+            ({t("footer.day")} 14:00-18:00)
+          </span>
         </Button>
       </div>
       <div className="contact-block">

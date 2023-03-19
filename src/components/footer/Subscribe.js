@@ -5,8 +5,10 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Row from "react-bootstrap/Row";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 const Subscribe = () => {
+  const { t } = useTranslation();
   const form = useRef();
   const [validated, setValidated] = useState(false);
 
@@ -28,7 +30,6 @@ const Subscribe = () => {
       .then(
         (result) => {
           console.log(result.text);
-          
         },
         (error) => {
           console.log(error.text);
@@ -40,11 +41,8 @@ const Subscribe = () => {
 
   return (
     <div className="m-auto">
-      <h6>SUBSCRIBE</h6>
-      <p className="text-start subscribe-text">
-        Join our weekly email newsletter to receive news, events and other
-        announcements about what is going on at our Hub
-      </p>
+      <h6>{t("footer.subscribe-title")}</h6>
+      <p className="text-start subscribe-text">{t("footer.subscribe-text")}</p>
 
       <Form noValidate validated={validated} onSubmit={sendEmail} ref={form}>
         <Row className="mb-3">
@@ -53,7 +51,7 @@ const Subscribe = () => {
               <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
               <Form.Control
                 type="email"
-                placeholder="Enter your email"
+                placeholder={t("footer.subscribe-text")}
                 aria-describedby="inputGroupPrepend"
                 required
                 name="user_email"
@@ -77,7 +75,7 @@ const Subscribe = () => {
             variant="light"
             type="submit"
           >
-            SUBSCRIBE
+            {t("footer.subscribe-title")}
           </Button>
         </Form.Group>
       </Form>

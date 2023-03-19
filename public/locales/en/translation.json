@@ -59,15 +59,22 @@
       "military-title": "Military assistance",
       "military-text": "Thousands of soldiers from Ukraine and other countries fight for victory over the aggressor every day. We can help with ammunition and other essentials at the front",
       "projects-btn": "VIEW DETAILS"
-    }
+    },
+    "partners": "Our Partners"
   },
 
   "images": {
     "img": "../../pictures/carousel/clothes.png",
     "title": "Clothes",
     "text": "This is a list of clothing needs"
-  }
-  
-}
+  },
 
- 
+  "footer": {
+    "day": "Sunday",
+    "subscribe-title": "SUBSCRIBE",
+    "subscribe-text": "Join our weekly email newsletter to receive news, events and other announcements about what is going on at our Hub",
+    "form-name": "Enter your name",
+    "form-email": "Enter your email",
+    "agree": "Agree to terms and conditions"
+  }
+}

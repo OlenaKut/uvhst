@@ -5,8 +5,10 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import InputGroup from "react-bootstrap/InputGroup";
+import { useTranslation } from "react-i18next";
 
 const Emailjs = () => {
+  const { t } = useTranslation();
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -33,11 +35,8 @@ const Emailjs = () => {
 
   return (
     <div className="m-auto">
-      <h6>SUBSCRIBE</h6>
-      <p className="text-start subscribe-text">
-        Join our weekly email newsletter to receive news, events and other
-        announcements about what is going on at our Hub
-      </p>
+      <h6>{t("footer.subscribe-title")}</h6>
+      <p className="text-start subscribe-text">{t("footer.subscribe-text")}</p>
       <Form ref={form} onSubmit={sendEmail}>
         <Row className="mb-3">
           <Form.Group as={Col} md="" controlId="validationCustomUsername">
@@ -46,7 +45,7 @@ const Emailjs = () => {
               <Form.Control
                 type="text"
                 name="user_name"
-                placeholder="Enter your name"
+                placeholder={t("footer.form-name")}
                 aria-describedby="inputGroupPrepend"
                 required
               />
@@ -58,7 +57,7 @@ const Emailjs = () => {
               <Form.Control
                 type="email"
                 name="user_email"
-                placeholder="Enter your email"
+                placeholder={t("footer.form-email")}
                 aria-describedby="inputGroupPrepend"
                 required
               />
@@ -69,7 +68,7 @@ const Emailjs = () => {
           <Form.Check
             className="d-flex justify-content-start"
             required
-            label="Agree to terms and conditions"
+            label={t("footer.agree")}
             feedback="You must agree before submitting."
             feedbackType="invalid"
           />
@@ -78,7 +77,7 @@ const Emailjs = () => {
             variant="light"
             type="submit"
           >
-            SUBSCRIBE
+            {t("footer.subscribe-title")}
           </Button>
         </Form.Group>
       </Form>

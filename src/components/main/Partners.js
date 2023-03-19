@@ -13,10 +13,14 @@ import Pop from "../../pictures/Pop_logo.png";
 import Palianytsia from "../../pictures/Palianytsia-logo.jfif";
 import "../main/Partners.css";
 
+import { useTranslation } from "react-i18next";
+
 const Partners = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="m-auto text-center partners-block container">
-      <h1 className="partners-title">Our Partners</h1>
+      <h1 className="partners-title">{t("projects.partners")}</h1>
       <Container fluid className="m-auto text-center">
         <Row className="d-inline-flex justify-content-center m-2" xs="auto">
           <Col>

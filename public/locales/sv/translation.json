@@ -55,12 +55,22 @@
     "military": {
       "military-title": "Militär hjälp",
       "military-text": "Tusentals soldater från Ukraina och andra länder kämpar för segern över angriparen varje dag. Vi kan hjälpa till med ammunition och annat väsentligt längst fram"
-    }
+    },
+    "partners": "Våra partners"
   },
 
   "images": {
     "img": "../../pictures/carousel/clothes.png",
     "title": "Kläder",
     "text": "Detta är en lista över klädbehov"
+  },
+
+  "footer": {
+    "day": "Söndag",
+    "subscribe-title": "PRENUMERERA",
+    "subscribe-text": "Gå med i vårt veckovisa e-postnyhetsbrev för att få nyheter, evenemang och andra meddelanden om vad som händer i vår Hub",
+    "form-name": "Ange ditt namn",
+    "form-email": "Ange din e-postadress",
+    "agree": "Godkänn villkoren"
   }
 }
