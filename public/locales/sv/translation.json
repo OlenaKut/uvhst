@@ -68,6 +68,31 @@
     "text-partnership": "Vi letar alltid efter partners för samarbete i vårt arbete, för tack vare detta tillsammans blir vi bättre och kan mycket mer. Om din organisation eller ditt företag vill gå med oss, vänligen kontakta oss:"
   },
 
+  "page4": {
+    "title-get-help": "Hur man får hjälp",
+    "text-get-help": "Om du representerar eller samarbetar med en militär enhet eller grupp, sjukhus, barnhem, hem för äldre eller personer med funktionsnedsättning, en offentlig organisation som hjälper internflyktingar i Ukraina, eller människor som drabbats av krig, kan du kontakta oss för humanitär hjälp och skicka en förfrågan.",
+    "send-request": "Vänligen skicka din förfrågan till",
+    "request-contain": "Begäran måste nödvändigtvis innehålla:",
+    "list1-get-help": "Namnet på din organisation",
+    "list2-get-help": "Registreringsskattenummer EDRPOU",
+    "list3-get-help": "Den mest detaljerade listan över nödvändiga saker och önskad kvantitet",
+    "list4-get-help": "Kontakttelefonnummer, samt namn och efternamn på kontaktpersonen",
+    "span1-get-help": "Tyvärr kan vi inte skicka hjälp till individer eftersom vi bara kan vidarebefordra hjälp till registrerade frivilliga eller militära organisationer.",
+    "span2-get-help": "Tyvärr kan vi inte uppfylla begäran om din organisation inte visas under det angivna EDRPOU-skattenumret. Ange en giltig EDRPOU-kod för att fortsätta samarbetet.",
+    "span3-get-help": "Tyvärr kan vi inte tillhandahålla utrustning/droger/utrustning som är förbjudna att köpa och transportera.",
+    "thank": "Tack för ditt arbete och stöd till Ukraina!",
+    "title-report": "En rapport om mottagen hjälp",
+    "subtitle-report": "För att vi ska kunna fortsätta vårt arbete och rapportera till våra givare är ett villkor för samarbete din bild- och videoreportage om det mottagna biståndet:",
+    "list1-report": "Minst tre fotografier",
+    "list2-report": "En kort video (10-15 sekunder)",
+    "list3-report": "En kort textbeskrivning från mottagaren",
+    "text-ask-report": "Vi ber dig skicka dem till oss via post",
+    "text-post-report": "Vi skulle vara tacksamma om du också ville göra ett inlägg på",
+    "or-report": "eller",
+    "text-tagging-report": "taggar vårt konto."
+  
+  },
+
   "page5": {
     "titleP5": "Vårt arbete och vårt team",
     "text-mainP5": "Ukrainian Volunteer Hub Stockholm är ett team av frivilliga som har samlats sedan krigets första dagar för att hjälpa Ukraina. Vi hjälper sjukhus i Ukraina, barnhem, människor som led av krig och soldater vid fronten. Under vårt arbete samlade vi in över 2 miljoner kronor och skickade ett 100-tal lastbilar med humanitärt bistånd till Ukraina Nu försöker vi samla in fler saker som ska hjälpa i Ukraina med ljus och värme – generatorer, värmare, ficklampor, ljus, varma saker, samt mat och hygienartiklar. Vi är övertygade om att varje donation är viktig och kan rädda någons liv.",

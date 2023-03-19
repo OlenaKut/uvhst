@@ -72,6 +72,30 @@
     "text-partnership": "We are always looking for partners for cooperation in our work, because thanks to this together we become better and can do much more. If your organization or company would like to join us, please contact us:"
   },
 
+  "page4": {
+    "title-get-help": "How to get help",
+    "text-get-help": "If you represent or cooperate with a military unit or group, hospitals, orphanages, homes for the elderly or people with disabilities, a public organization that helps internally displaced persons in Ukraine, or people affected by war, you can contact us for humanitarian aid and send a request.",
+    "send-request": "Please send your request to",
+    "request-contain": "The request must necessarily contain:",
+    "list1-get-help": "The name of your organization",
+    "list2-get-help": "Registration tax number EDRPOU",
+    "list3-get-help": "The most detailed list of necessary things and the desired quantity",
+    "list4-get-help": "Contact phone number, as well as the name and surname of the contact person",
+    "span1-get-help": "Unfortunately, we cannot send aid to individuals because we can only forward aid to registered volunteer or military organizations.",
+    "span2-get-help": "Unfortunately, we cannot fulfill the request if your organization is not displayed under the EDRPOU tax number provided. Please provide a valid EDRPOU code to continue cooperation.",
+    "span3-get-help": "Unfortunately, we cannot provide equipment/drugs/equipment that are prohibited for purchase and transportation.",
+    "thank": "Thank you for your work and support to Ukraine!",
+    
+    "title-report": "A report on the assistance received",
+    "subtitle-report": "In order for us to be able to continue our work and report to our donors, a condition of cooperation is your photo and video report on the aid received:",
+    "list1-report": "At least three photographs",
+    "list2-report": "One short video (10-15 seconds)",
+    "list3-report": "A short text description from the recipient",
+    "text-ask-report": "We ask that you send them to us by mail",
+    "text-post-report": "We would be grateful if you would also make a post on",
+    "or-report": "or",
+    "text-tagging-report": "tagging our account."
+  },
 
   "page5": {
     "titleP5": "Our work and our team",
