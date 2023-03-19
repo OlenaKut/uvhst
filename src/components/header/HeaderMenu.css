@@ -34,9 +34,8 @@
   height: 36px;
   transition: all ease-in-out 0.3s;
 }
-.menu {
-  margin-bottom: 20px;
-}
+
+
 .link {
   font-size: 24px;
 }
@@ -76,7 +75,7 @@
 .name {
   margin: 0 0 0 96px;
   color: #f8b435;
-  font-size: 52px;
+  font-size: 48px;
 }
 
 @media (max-width: 1410px) {

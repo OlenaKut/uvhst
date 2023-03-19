@@ -15,7 +15,7 @@ const Navigation = () => {
   }
 
   return (
-    <Nav className="me-auto fixed-top" title={t()}>
+    <Nav className="me-auto" title={t()}>
       <Nav.Link href="#" onClick={() => changeLocale("en")} className="m-2 p-0">
         En
       </Nav.Link>

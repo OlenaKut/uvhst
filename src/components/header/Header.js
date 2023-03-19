@@ -65,6 +65,7 @@ const Header = () => {
             {t("page1.header-volunteer-btn")}
           </Button>
         </LinkContainer>
+
         <h1 className="name mb-3">Ukrainian Volunteer Hub Stockholm</h1>
       </div>
       <div className="d-lg-none d-block position-absolute alt-button">
@@ -72,11 +73,12 @@ const Header = () => {
         <AlternativeButtonOne />
         <AlternativeButtonTwo />
       </div>
-      <div className="d-none d-sm-block">
-        <MediaLinks />
-      </div>
       <div className="position-absolute end-0">
         <MenuNew />
+      </div>
+
+      <div className="d-none d-sm-block">
+        <MediaLinks />
       </div>
     </div>
   );
