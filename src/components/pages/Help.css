@@ -6,8 +6,8 @@
   font-size: 18px;
 }
 .vol-block {
-  padding: 20px 10px;
-  width: 50%;
+  padding: 20px 30px;
+  width: 65%;
 }
 .contact-logo-page3 {
   height: 20px;
@@ -29,7 +29,8 @@
 
 @media (max-width: 1200px) {
   .vol-block {
-    width: 70%;
+    padding: 10px 20px;
+    width: 80%;
   }
   .need-help {
     width: 70%;

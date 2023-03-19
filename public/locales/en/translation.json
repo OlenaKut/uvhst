@@ -1,20 +1,4 @@
 {
-  "page5": {
-    "titleP5": "Our work and our team",
-    "text-mainP5": "Ukrainian Volunteer Hub Stockholm is a team of volunteers who have come together since the first days of the war to help Ukraine. We help hospitals in Ukraine, orphanages, people who suffered from war and soldiers at the front. During our work, we collected more than SEK 2 million and sent about 100 trucks with humanitarian aid to Ukraine. Now we are trying to collect more things that will help in Ukraine with light and heat - generators, heaters, flashlights, candles, warm things, as well as food and hygiene items. We are convinced that every donation is important and can save someone's life.",
-    "text-twoP5": "More than 500 volunteers joined us during the Ukrainian Volunteer Hub Stockholm operation. And there is always work for everyone.",
-    "text-threeP5": "  We believe that together people can do extraordinary work and defeat any enemy!",
-    "language": "Language",
-    "card-name-taras": "Taras Sych",
-    "card-text-taras": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "card-name-olena": "Olena Kutasevych",
-    "card-text-olena": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "card-name-vasil": "Vasil Dizhak",
-    "card-text-vasil": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "card-name-nataliia": "Nataliia Lukashevych",
-    "card-text-nataliia": "Some quick example text to build on the card title and make up the bulk of the card's content."
-  },
-
   "page1": {
     "header-volunteer-btn": "Become a volunteer",
     "header-donate-btn": "Donate here"
@@ -76,5 +60,32 @@
     "form-name": "Enter your name",
     "form-email": "Enter your email",
     "agree": "Agree to terms and conditions"
+  },
+
+  "page3": {
+    "title-volunteer": "I want to become a volunteer",
+    "text-volunteer": "We always need good help! You can find more information here:",
+    "title-donate": "I want donate money or things",
+    "subtitle-donate": "We welcome all donations!",
+    "text-donate": "We partner with volunteer organizations in Ukraine where we send supplies and help in any way we can. We send help to the hospitals in Ukraine, orphanages, people who suffered from war and soldiers at the front. You can see a list of what we need most right now on the home page. Also you can find more information about our donation account here: ",
+    "title-partnership": "Partnership",
+    "text-partnership": "We are always looking for partners for cooperation in our work, because thanks to this together we become better and can do much more. If your organization or company would like to join us, please contact us:"
+  },
+
+
+  "page5": {
+    "titleP5": "Our work and our team",
+    "text-mainP5": "Ukrainian Volunteer Hub Stockholm is a team of volunteers who have come together since the first days of the war to help Ukraine. We help hospitals in Ukraine, orphanages, people who suffered from war and soldiers at the front. During our work, we collected more than SEK 2 million and sent about 100 trucks with humanitarian aid to Ukraine. Now we are trying to collect more things that will help in Ukraine with light and heat - generators, heaters, flashlights, candles, warm things, as well as food and hygiene items. We are convinced that every donation is important and can save someone's life.",
+    "text-twoP5": "More than 500 volunteers joined us during the Ukrainian Volunteer Hub Stockholm operation. And there is always work for everyone.",
+    "text-threeP5": "  We believe that together people can do extraordinary work and defeat any enemy!",
+    "language": "Language",
+    "card-name-taras": "Taras Sych",
+    "card-text-taras": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "card-name-olena": "Olena Kutasevych",
+    "card-text-olena": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "card-name-vasil": "Vasil Dizhak",
+    "card-text-vasil": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "card-name-nataliia": "Nataliia Lukashevych",
+    "card-text-nataliia": "Some quick example text to build on the card title and make up the bulk of the card's content."
   }
 }

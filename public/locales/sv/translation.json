@@ -1,20 +1,4 @@
 {
-  "page5": {
-    "titleP5": "Vårt arbete och vårt team",
-    "text-mainP5": "Ukrainian Volunteer Hub Stockholm är ett team av frivilliga som har samlats sedan krigets första dagar för att hjälpa Ukraina. Vi hjälper sjukhus i Ukraina, barnhem, människor som led av krig och soldater vid fronten. Under vårt arbete samlade vi in över 2 miljoner kronor och skickade ett 100-tal lastbilar med humanitärt bistånd till Ukraina Nu försöker vi samla in fler saker som ska hjälpa i Ukraina med ljus och värme – generatorer, värmare, ficklampor, ljus, varma saker, samt mat och hygienartiklar. Vi är övertygade om att varje donation är viktig och kan rädda någons liv.",
-    "text-twoP5": "Mer än 500 volontärer anslöt sig till oss under operationen Ukrainian Volunteer Hub Stockholm. Och det finns alltid arbete för alla.",
-    "text-threeP5": "Vi tror att tillsammans kan människor göra extraordinärt arbete och besegra vilken fiende som helst!",
-    "language": "Language",
-    "card-name-taras": "Taras Sych",
-    "card-text-taras": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll",
-    "card-name-olena": "Olena Kutasevych",
-    "card-text-olena": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll",
-    "card-name-vasil": "Vasil Dizhak",
-    "card-text-vasil": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll",
-    "card-name-nataliia": "Nataliia Lukashevych",
-    "card-text-nataliia": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll"
-  },
-
   "page1": {
     "header-volunteer-btn": "Bli en frivillig",
     "header-donate-btn": "Donera här"
@@ -72,5 +56,31 @@
     "form-name": "Ange ditt namn",
     "form-email": "Ange din e-postadress",
     "agree": "Godkänn villkoren"
+  },
+
+  "page3": {
+    "title-volunteer": "Jag vill bli volontär",
+    "text-volunteer": "Vi behöver alltid bra hjälp! Du kan hitta mer information här:",
+    "title-donate": "Jag vill skänka pengar eller saker",
+    "subtitle-donate": "Vi välkomnar alla donationer!",
+    "text-donate": "Vi samarbetar med frivilligorganisationer i Ukraina dit vi skickar förnödenheter och hjälper till på alla sätt vi kan. Vi skickar hjälp till sjukhusen i Ukraina, barnhem, människor som led av krig och soldater vid fronten. Du kan se en lista över vad vi behöver mest just nu på hemsidan. Du kan också hitta mer information om vårt donationskonto här:",
+    "title-partnership": "Partnerskap",
+    "text-partnership": "Vi letar alltid efter partners för samarbete i vårt arbete, för tack vare detta tillsammans blir vi bättre och kan mycket mer. Om din organisation eller ditt företag vill gå med oss, vänligen kontakta oss:"
+  },
+
+  "page5": {
+    "titleP5": "Vårt arbete och vårt team",
+    "text-mainP5": "Ukrainian Volunteer Hub Stockholm är ett team av frivilliga som har samlats sedan krigets första dagar för att hjälpa Ukraina. Vi hjälper sjukhus i Ukraina, barnhem, människor som led av krig och soldater vid fronten. Under vårt arbete samlade vi in över 2 miljoner kronor och skickade ett 100-tal lastbilar med humanitärt bistånd till Ukraina Nu försöker vi samla in fler saker som ska hjälpa i Ukraina med ljus och värme – generatorer, värmare, ficklampor, ljus, varma saker, samt mat och hygienartiklar. Vi är övertygade om att varje donation är viktig och kan rädda någons liv.",
+    "text-twoP5": "Mer än 500 volontärer anslöt sig till oss under operationen Ukrainian Volunteer Hub Stockholm. Och det finns alltid arbete för alla.",
+    "text-threeP5": "Vi tror att tillsammans kan människor göra extraordinärt arbete och besegra vilken fiende som helst!",
+    "language": "Language",
+    "card-name-taras": "Taras Sych",
+    "card-text-taras": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll",
+    "card-name-olena": "Olena Kutasevych",
+    "card-text-olena": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll",
+    "card-name-vasil": "Vasil Dizhak",
+    "card-text-vasil": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll",
+    "card-name-nataliia": "Nataliia Lukashevych",
+    "card-text-nataliia": "Lite snabb exempeltext för att bygga vidare på korttiteln och utgöra huvuddelen av kortets innehåll"
   }
 }
