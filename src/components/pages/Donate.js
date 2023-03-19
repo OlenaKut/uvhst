@@ -26,8 +26,7 @@ const Donate = () => {
 
             <Col className="" md>
               <h4 className="donate-subtitle mb-lg-5 mb-3 shadow">
-                Many people in Ukraine need help and each of us can help. There
-                are no small donations. Every donation can save someone's life
+                {t("donate-page")}
               </h4>
 
               <p className="fw-semibold account">
