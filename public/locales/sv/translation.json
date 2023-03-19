@@ -58,6 +58,20 @@
     "agree": "Godkänn villkoren"
   },
 
+  "become-volunteer": {
+    "title-become-volunteer": "Bli volontär i Ukrainian Volunteer Hub Stockholm",
+    "text1-become-volunteer": "Att bli volontär på",
+    "text2-become-volunteer": "är ett av sätten att stödja Ukraina i detta illegala krig som Ryssland för mot oss. Vi är en icke-partisk och icke-religiös organisation, vars huvudsakliga uppgifter är att bedriva sociala, informativa och välgörande aktiviteter, att tillhandahålla ekonomiskt, humanitärt och informativt stöd till både individer och juridiska personer som lagligt bedriver verksamhet och respekterar demokratiska värdegrund, att bedriva informationsarbete gällande Ukraina med syfte att sprida kunskap om Ukraina och dess kultur, samt bevaka aktuella frågor om den politiska, ekonomiska och sociala situationen i Ukraina, för att hjälpa och stödja både svenska och ukrainska medborgare.",
+    "subtitle-become-volunteer": "Som volontär kan du hjälpa oss med följande frågor:",
+    "list1-become-volunteer": "Informationsarbete och informationsspridning i sociala nätverk, vid möten och olika evenemang, på arbetsplatser, samt bland vänner, släktingar och bekanta",
+    "list2-become-volunteer": "Arbeta i logistiknavet som består i att ta emot, sortera och skicka donationer till Ukraina",
+    "list3-become-volunteer": "Administrativt arbete relaterat till hjälp med logistik, insamling och hantering av förfrågningar, underhåll av sidor i sociala nätverk m.m.",
+    "choose-become-volunteer": "Som volontär väljer du vad du kan hjälpa till med, samt hur mycket tid du kan ägna åt det. Vi är tacksamma för alla som jobbar hos oss och vill jobba. Vi svarar gärna på alla frågor och hjälper till att välja inriktning på volontärarbete vid behov.",
+    "text-form-become-volunteer": "För att bli volontär i, vänligen fyll i formuläret i vår Telegram-kanal",
+    "questions-become-volunteer": "Om du har ytterligare frågor, vänligen kontakta oss på vår postadress",
+    "win-become-volunteer": "Bara tillsammans vinner vi!"
+  },
+
   "page3": {
     "title-volunteer": "Jag vill bli volontär",
     "text-volunteer": "Vi behöver alltid bra hjälp! Du kan hitta mer information här:",
@@ -90,7 +104,6 @@
     "text-post-report": "Vi skulle vara tacksamma om du också ville göra ett inlägg på",
     "or-report": "eller",
     "text-tagging-report": "taggar vårt konto."
-  
   },
 
   "page5": {
