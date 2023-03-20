@@ -4,6 +4,7 @@ import Facebook_icon from "../../pictures/Facebook_icon.png";
 import Twitter_logo from "../../pictures/Twitter_logo.webp";
 import Instagram_icon from "../../pictures/Instagram_icon.webp";
 import Mail_icon from "../../pictures/Mail_icon.png";
+import Linkedin_icon from "../../pictures/LinkedIn_logo.webp";
 
 const MediaLinks = () => {
   return (
@@ -31,6 +32,14 @@ const MediaLinks = () => {
         rel="noopener noreferrer"
       >
         <img src={Instagram_icon} alt="Instagram" className="media" />
+      </Button>
+      <Button
+        variant="link"
+        href="https://www.linkedin.com/company/uv-hub-stockholm/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={Linkedin_icon} alt="Linkedin" className="media" />
       </Button>
       <Button
         variant="link"
