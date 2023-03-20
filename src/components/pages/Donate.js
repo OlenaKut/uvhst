@@ -14,19 +14,20 @@ const Donate = () => {
   return (
     <div>
       <Header />
-      <div className="donate-page">
+      <div className="donate-page m-auto shadow">
         <Container fluid>
           <Row className="justify-content-between">
-            <Col className="text-center mb-lg-5 mb-1" md>
+            <Col className="text-center mb-lg-5 mb-1" md lg="5">
               <h2 className="donate-title text-danger">
                 {t("subheader.iwant-to-help-text")}
               </h2>
+              <p className="swish-undertext">{t("donate-page.swish")}</p>
               <img src={swish} alt="Swish" className="donate-swish" />
             </Col>
 
-            <Col className="" md>
+            <Col md lg="7">
               <h4 className="donate-subtitle mb-lg-5 mb-3 shadow">
-                {t("donate-page")}
+                {t("donate-page.text")}
               </h4>
 
               <p className="fw-semibold account">

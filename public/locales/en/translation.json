@@ -62,7 +62,10 @@
     "agree": "Agree to terms and conditions"
   },
 
-  "donate-page": "Many people in Ukraine need help and each of us can help. There are no small donations. Every donation can save someone's life",
+  "donate-page": {
+    "text": "Many people in Ukraine need help and each of us can help. There are no small donations. Every donation can save someone's life",
+    "swish": "Swish for Ukrainian Volunteer Hub Stockholm"
+  },
 
   "become-volunteer": {
     "title-become-volunteer": "Become a Volunteer in Ukrainian Volunteer Hub Stockholm",

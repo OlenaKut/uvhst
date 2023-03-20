@@ -57,8 +57,10 @@
     "form-email": "Ange din e-postadress",
     "agree": "Godkänn villkoren"
   },
-
-  "donate-page": "Många människor i Ukraina behöver hjälp och var och en av oss kan hjälpa till. Det finns inga små donationer. Varje donation kan rädda någons liv",
+  "donate-page": {
+    "text": "Många människor i Ukraina behöver hjälp och var och en av oss kan hjälpa till. Det finns inga små donationer. Varje donation kan rädda någons liv",
+    "swish": "Swish för Ukrainian Volunteer Hub Stockholm"
+  },
 
   "become-volunteer": {
     "title-become-volunteer": "Bli volontär i Ukrainian Volunteer Hub Stockholm",

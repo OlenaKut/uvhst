@@ -22,6 +22,7 @@ const Volunteer = () => {
           <p className="volunteer-text mb-5">
             {t("become-volunteer.text1-become-volunteer")}
             <span className="UVHS text-warning">
+              {" "}
               Ukrainian Volunteer Hub Stockholm
             </span>{" "}
             {t("become-volunteer.text2-become-volunteer")}
