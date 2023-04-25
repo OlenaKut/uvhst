@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
 import "../components/pages/Help.css";
 import Button from "react-bootstrap/Button";
 import Mail from "../pictures/Mail_icon_black.png";
@@ -13,7 +11,6 @@ const Page4NeedHelp = () => {
 
   return (
     <div>
-      <Header />
       <div className="need-help shadow m-auto my-5 p-4 container-fluid">
         <h2 className="vol-title text-center mb-3">
           {" "}
@@ -105,7 +102,6 @@ const Page4NeedHelp = () => {
 
         <h5 className="text-center my-4 need-undertext">{t("page4.thank")}</h5>
       </div>
-      <Footer />
     </div>
   );
 };
