@@ -99,7 +99,6 @@ const Page4NeedHelp = () => {
           </Button>
           {t("page4.text-tagging-report")}
         </p>
-
         <h5 className="text-center my-4 need-undertext">{t("page4.thank")}</h5>
       </div>
     </div>

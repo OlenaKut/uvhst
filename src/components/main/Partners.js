@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
 import Embassy from "../../pictures/Embassy.png";
 import Nordic from "../../pictures/Nordic.png";
 import UIS from "../../pictures/UIS.png";
@@ -12,7 +11,6 @@ import Church from "../../pictures/Church.png";
 import Pop from "../../pictures/Pop_logo.png";
 import Palianytsia from "../../pictures/Palianytsia-logo.jfif";
 import "../main/Partners.css";
-
 import { useTranslation } from "react-i18next";
 
 const Partners = () => {
@@ -110,7 +108,7 @@ const Partners = () => {
               <img
                 src={Palianytsia}
                 alt="Palianitsia"
-                className="partner-link"
+                className="partner-link mt-3"
               />
             </Button>
           </Col>

@@ -5,7 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { LinkContainer } from "react-router-bootstrap";
-
 import { useTranslation } from "react-i18next";
 
 const MenuNew = () => {

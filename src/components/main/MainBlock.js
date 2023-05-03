@@ -21,7 +21,7 @@ const MainBlock = () => {
                   />
                 </Zoom>
               </div>
-              <div className="m- p-2 align-self-center">
+              <div className="p-2 align-self-center">
                 <h4 className="news-title m-lg-2 m-2">{newa.name}</h4>
                 <p className="news-text">{newa.text}</p>
                 <p className="fst-italic">{newa.account}</p>
@@ -34,7 +34,7 @@ const MainBlock = () => {
         <LinkContainer to="/Page2News">
           <Button
             variant="outline-info"
-            className="position-absolute top-0 end-0 "
+            className="position-absolute top-0 end-0"
           >
             Read more...
           </Button>

@@ -20,8 +20,8 @@ import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <div>
-      <Header /> 
-    <Routes>
+      <Header />
+      <Routes>
         <Route path="/" element={<FirstPage />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/register" element={<Register />} />
@@ -39,7 +39,7 @@ const App = () => {
       posthog.has_opted_in_capturing() ? null : (
         <MyCookie />
       )}
-       <Footer />
+      <Footer />
     </div>
   );
 };

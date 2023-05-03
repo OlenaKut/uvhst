@@ -14,7 +14,6 @@ import i18n from "../../i18n";
 import LocaleContext from "../../LocaleContext";
 import Navigation from "../../translation/Navigation";
 import Loading from "../../translation/Loading";
-
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
@@ -75,7 +74,6 @@ const Header = () => {
       <div className="position-absolute end-0">
         <MenuNew />
       </div>
-
       <div className="d-none d-sm-block">
         <MediaLinks />
       </div>

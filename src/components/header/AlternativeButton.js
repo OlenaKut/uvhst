@@ -26,7 +26,7 @@ const AlternativeButtonTwo = () => {
   const [isShownTwo, setIsShownTwo] = useState(false);
   return (
     <div>
-      <LinkContainer to="/Volunteer">
+      <LinkContainer to="/Donate">
         <Button
           variant="link"
           target="_blank"

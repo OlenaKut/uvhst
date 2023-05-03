@@ -1,7 +1,6 @@
 import React from "react";
 import "../subheader/subheader.css";
 import swish from "../../pictures/swish.jpg";
-
 import { useTranslation } from "react-i18next";
 
 const Subheader = () => {
@@ -31,7 +30,7 @@ const Subheader = () => {
               <br />
               Monobank:{" "}
               <a
-                href="https://send.monobank.ua/jar/AL6jVZ3bBK"
+                href="https://send.monobank.ua/jar/3z7mhPjJdz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
