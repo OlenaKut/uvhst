@@ -3,8 +3,6 @@ import Volunteers from "../../pictures/foto/volunteers.jpg";
 import Button from "react-bootstrap/Button";
 import Telegram from "../../pictures/Telegram-logo.png";
 import Mail_icon from "../../pictures/Mail_icon.png";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
 import "./Volunteer.css";
 import { useTranslation } from "react-i18next";
 
@@ -13,7 +11,7 @@ const Volunteer = () => {
 
   return (
     <div>
-      <Header />
+    
       <div className="volunteer">
         <div className="px-4 py-2 mb-5 shadow">
           <h2 className="text-center my-4 volunteer-header">
@@ -74,7 +72,7 @@ const Volunteer = () => {
           className="rounded-2 m-0 img-fluid"
         />
       </div>
-      <Footer />
+  
     </div>
   );
 };

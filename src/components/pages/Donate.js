@@ -1,8 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import swish from "../../pictures/swish.jpg";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
 import "./Donate.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -13,8 +11,7 @@ const Donate = () => {
 
   return (
     <div>
-      <Header />
-      <div className="donate-page m-auto shadow">
+          <div className="donate-page m-auto shadow">
         <Container fluid>
           <Row className="justify-content-between">
             <Col className="text-center mb-lg-5 mb-1" md lg="5">
@@ -58,8 +55,7 @@ const Donate = () => {
           </Row>
         </Container>
       </div>
-      <Footer />
-    </div>
+       </div>
   );
 };
 

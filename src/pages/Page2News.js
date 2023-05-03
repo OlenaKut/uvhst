@@ -1,12 +1,10 @@
 import React from "react";
 import news from "./../components/main/NewsData";
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
+
 import Zoom from "react-medium-image-zoom";
 const Page2News = () => {
   return (
     <div>
-      <Header />
       <div className="container-fluid news-block mb-5">
         {news.map((newa, index) => {
           return (
@@ -32,7 +30,6 @@ const Page2News = () => {
         })}
       </div>
       <div>
-        <Footer />
       </div>
     </div>
   );
