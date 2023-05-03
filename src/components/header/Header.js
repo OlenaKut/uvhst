@@ -10,7 +10,6 @@ import {
 } from "../header/AlternativeButton";
 import { LinkContainer } from "react-router-bootstrap";
 import Login from "../../authorisation/Login";
-
 import i18n from "../../i18n";
 import LocaleContext from "../../LocaleContext";
 import Navigation from "../../translation/Navigation";

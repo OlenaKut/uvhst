@@ -23,8 +23,7 @@ const Login = () => {
 
   useEffect(() => {
     if (loading) {
-      // maybe trigger a loading screen
-      return;
+        return;
     }
     /*if (user) {
       navigate("/");

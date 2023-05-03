@@ -39,7 +39,7 @@ const Emailjs = () => {
       <p className="text-start subscribe-text">{t("footer.subscribe-text")}</p>
       <Form ref={form} onSubmit={sendEmail}>
         <Row className="mb-3">
-          <Form.Group as={Col} md="" controlId="validationCustomUsername">
+          <Form.Group as={Col}>
             <InputGroup hasValidation>
               <InputGroup.Text id="inputGroupPrepend">🙍🏻‍♂️</InputGroup.Text>
               <Form.Control
@@ -51,7 +51,7 @@ const Emailjs = () => {
               />
             </InputGroup>
           </Form.Group>
-          <Form.Group as={Col} md="" controlId="validationCustomUsername">
+          <Form.Group as={Col}>
             <InputGroup hasValidation>
               <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
               <Form.Control

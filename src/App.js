@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/Page5Team" element={<Page5Team />} />
       </Routes>
 
-      {posthog.has_opted_out_capturing() || // new
+      {posthog.has_opted_out_capturing() ||
       posthog.has_opted_in_capturing() ? null : (
         <MyCookie />
       )}

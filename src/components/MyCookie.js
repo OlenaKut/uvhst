@@ -1,14 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import posthog from "posthog-js";
-import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import "../components/Cookie.css";
 
 const MyCookie = () => {
   const [showBanner, setShowBanner] = useState(true);
-
-  //const handleClose = () => setShowBanner(false);
 
   const acceptCookies = () => {
     posthog.opt_in_capturing();
@@ -22,12 +18,8 @@ const MyCookie = () => {
 
   return (
     <div>
-      <Modal
-        className="d-flex align-items-end"
-        show={showBanner}
-        /*</div>onHide={handleClose}*/
-      >
-        <Modal.Body className="cookie">
+      <Modal className="d-flex align-items-end" show={showBanner}>
+        <Modal.Body>
           <p className="pt-3">
             We use cookies to enhance your browsing experience, serve
             personalized ads or content, and analyze our traffic. By clicking on
